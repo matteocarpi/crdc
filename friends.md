@@ -2,7 +2,7 @@
 layout: friends
 title: Friends
 name: ''
-inner_circle: 
-network: 
+inner_circle: Matteo Carpi
+network: Arthaus.berlin
 
 ---
