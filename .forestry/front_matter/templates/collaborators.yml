@@ -8,3 +8,5 @@ fields:
   label: inner circle
   template_types:
   - person
+pages:
+- collaborators.md
