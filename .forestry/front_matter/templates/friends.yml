@@ -3,17 +3,26 @@ label: Friends
 hide_body: false
 is_partial: false
 fields:
-- type: text
+- type: textarea
   name: inner_circle
   label: Inner Circle
-  description: List here the people of the inner circle
-- type: text
-  label: network
+  description: ''
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: textarea
   name: network
-  description: List here the people of the network
+  label: Network
+  description: ''
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 - type: boolean
   name: interruttore
   label: interruttore
   description: spegnimi
+  default: false
 pages:
 - friends.md
