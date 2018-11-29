@@ -3,6 +3,6 @@
 - name: FACTS
   link: /facts.html
 - name: TEAM
-  link: /team.html
+  link: /team
 - name: FRIENDS
   link: /friends.html
