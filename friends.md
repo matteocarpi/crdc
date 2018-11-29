@@ -3,4 +3,8 @@ layout: friends
 title: Friends
 
 ---
-Ma di cosa vogliamo parlare???
+**Matteo Carpi**
+
+webdesigner
+
+_amico vero_
