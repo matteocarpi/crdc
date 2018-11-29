@@ -1,4 +1,6 @@
 ---
+layout: collaborators
+permalink: /collaborators
 title: Collaborators
 date: 2018-11-29 19:52:30 +0000
 inner_circle:

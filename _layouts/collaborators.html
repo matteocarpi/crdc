@@ -1,0 +1,11 @@
+---
+layout: default
+title: Collaborators
+---
+{% for inner_circle in page.inner_circle %}
+<div class="collaborator">
+  <img src="" alt="">
+  <h1>{{ inner_circle.person-name }}</h1>
+  <p>{{ inner_circle.person-role}}</p>
+</div>
+{%endfor%}
