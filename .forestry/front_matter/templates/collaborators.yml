@@ -7,4 +7,4 @@ fields:
   name: inner_circle
   label: inner circle
   template_types:
-  - friends-partial
+  - friends
