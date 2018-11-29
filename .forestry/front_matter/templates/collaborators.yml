@@ -1,5 +1,5 @@
 ---
-label: collaborators
+label: Friends
 hide_body: false
 is_partial: false
 fields:
@@ -8,5 +8,11 @@ fields:
   label: inner circle
   template_types:
   - person
+- type: blocks
+  name: network
+  label: Network
+  template_types:
+  - person
 pages:
+- friends.md
 - collaborators.md
