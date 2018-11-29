@@ -1,29 +1,16 @@
 ---
-label: Friends
+label: Person
 hide_body: false
 is_partial: true
-display_field: inner_circle
+display_field: name
 fields:
-- type: textarea
-  name: inner_circle
-  label: Inner Circle
+- type: text
+  name: name
+  label: Name
   description: ''
-  config:
-    wysiwyg: true
-    schema:
-      format: markdown
-- type: textarea
-  name: network
-  label: Network
-  description: ''
-  config:
-    wysiwyg: true
-    schema:
-      format: markdown
-- type: boolean
-  name: interruttore
-  label: interruttore
-  description: spegnimi
-  default: false
+- type: text
+  name: role
+  label: role
+  description: 'Example: costume designer, webdesigner, friend from school'
 pages:
 - friends.md
