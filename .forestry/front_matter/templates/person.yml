@@ -8,12 +8,12 @@ fields:
   name: person-name
   label: name
   config:
-    required: true
+    required: false
 - type: text
   name: person-role
   label: role
   config:
-    required: true
+    required: false
 - type: file
   name: logo
   label: Logo
