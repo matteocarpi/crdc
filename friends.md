@@ -1,7 +1,8 @@
 ---
 layout: friends
 title: Friends
-name: friends
-inner_circle:
-network:
+name: ''
+inner_circle: 
+network: 
+
 ---
