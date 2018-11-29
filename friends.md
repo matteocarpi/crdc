@@ -8,6 +8,8 @@ inner_circle:
 - template: person
   person-name: Angharad Matthews
   person-role: Costume Design
+- template: person
+  logo: "/uploads/Remo-Logo.png"
 network: []
 
 ---
