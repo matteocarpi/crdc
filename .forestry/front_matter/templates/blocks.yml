@@ -1,0 +1,13 @@
+---
+label: Blocks
+hide_body: false
+is_partial: false
+fields:
+- type: blocks
+  label: tipe of friends
+  name: tipe_of_person
+  config:
+    min: '1'
+    max: '10'
+  template_types:
+  - friends
