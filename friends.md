@@ -1,10 +1,7 @@
 ---
 layout: friends
 title: Friends
-
+name: friends
+inner_circle:
+network:
 ---
-**Matteo Carpi**
-
-webdesigner
-
-_amico vero_
