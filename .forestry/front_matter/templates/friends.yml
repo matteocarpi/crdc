@@ -1,0 +1,17 @@
+---
+label: Friends
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: inner_circle
+  label: Inner Circle
+  description: List here the people of the inner circle
+- type: text
+  label: network
+  name: network
+  description: List here the people of the network
+- type: boolean
+  name: interruttore
+  label: interruttore
+  description: spegnimi
