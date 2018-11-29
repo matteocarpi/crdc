@@ -5,6 +5,9 @@ inner_circle:
 - template: person
   person-name: Matteo Carpi
   person-role: Web Designer
+- template: person
+  person-name: Angharad Matthews
+  person-role: Costume Design
 network: []
 
 ---
