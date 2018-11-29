@@ -2,7 +2,6 @@
 label: Person
 hide_body: false
 is_partial: true
-display_field: name
 fields:
 - type: text
   name: name
