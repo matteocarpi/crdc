@@ -1,0 +1,10 @@
+---
+label: collaborators
+hide_body: false
+is_partial: false
+fields:
+- type: blocks
+  name: inner_circle
+  label: inner circle
+  template_types:
+  - friends-partial
