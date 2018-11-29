@@ -1,9 +1,22 @@
-.button {
+.cta {
  background: #49927C;
  background-image: linear-gradient(155deg, #02509E 7%, #49927C 57%, #FAF076 100%);
  border: 3px solid #FAF076;
+ border-radius: 0.5rem;
  font-family: Montserrat-Bold;
  font-size: 18px;
  color: #FAF076;
  text-align: center;
+ padding: 0.5rem 1.2rem;
+ text-decoration: none;
 }
+
+.logo-small {
+  width: 4rem;
+}
+// .button-show {
+//   color: blue;
+// }
+// .active-button-show {
+//   color: red !important;
+// }
