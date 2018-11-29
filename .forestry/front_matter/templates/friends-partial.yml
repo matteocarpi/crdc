@@ -1,0 +1,19 @@
+---
+label: Friends-partial
+hide_body: false
+is_partial: true
+fields:
+- type: textarea
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: inner circle
+  name: inner_circle
+- type: textarea
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: network
+  name: network
