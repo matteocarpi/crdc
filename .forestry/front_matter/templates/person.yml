@@ -1,5 +1,5 @@
 ---
-label: Person
+label: Friend
 hide_body: false
 is_partial: true
 display_field: person-name
@@ -14,3 +14,6 @@ fields:
   label: role
   config:
     required: true
+- type: file
+  name: logo
+  label: Logo
