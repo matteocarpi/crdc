@@ -11,5 +11,3 @@ fields:
   name: role
   label: role
   description: 'Example: costume designer, webdesigner, friend from school'
-pages:
-- friends.md
