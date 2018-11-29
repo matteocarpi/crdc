@@ -6,3 +6,5 @@ fields:
 - type: blocks
   name: inner_circle
   label: inner circle
+pages:
+- collaborators.md
