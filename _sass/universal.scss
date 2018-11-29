@@ -9,8 +9,13 @@
  text-align: center;
  padding: 0.5rem 1.2rem;
  text-decoration: none;
+ text-transform: uppercase;
 }
-
+.footer {
+  position: absolute;
+  bottom: 1px;
+  right: 1px;
+}
 .logo-small {
   width: 4rem;
 }
