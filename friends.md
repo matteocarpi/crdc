@@ -10,6 +10,8 @@ inner_circle:
   person-role: Costume Design
 - template: person
   logo: "/uploads/Remo-Logo.png"
-network: []
+network:
+- template: person
+  person-name: arthaus.berlin
 
 ---
