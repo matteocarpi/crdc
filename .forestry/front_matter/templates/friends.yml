@@ -15,5 +15,3 @@ fields:
   name: interruttore
   label: interruttore
   description: spegnimi
-pages:
-- friends.md
