@@ -2,4 +2,7 @@
 label: collaborators
 hide_body: false
 is_partial: false
-fields: []
+fields:
+- type: blocks
+  name: inner_circle
+  label: inner circle
