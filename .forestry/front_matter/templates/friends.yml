@@ -24,5 +24,3 @@ fields:
   label: interruttore
   description: spegnimi
   default: false
-pages:
-- friends.md
