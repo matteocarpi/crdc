@@ -6,4 +6,5 @@ fields:
 - type: blocks
   name: inner_circle
   label: inner circle
-  template_types: []
+  template_types:
+  - person
