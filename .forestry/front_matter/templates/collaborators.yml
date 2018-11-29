@@ -14,4 +14,5 @@ fields:
   template_types:
   - person
 pages:
+- friends.md
 - collaborators.md
