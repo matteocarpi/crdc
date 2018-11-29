@@ -8,6 +8,5 @@ inner_circle:
 - template: person
   person-name: Angharad Matthews
   person-role: Costumes
-published: false
 
 ---
