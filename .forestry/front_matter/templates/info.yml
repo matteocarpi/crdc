@@ -1,9 +1,0 @@
----
-label: info
-hide_body: false
-is_partial: true
-display_field: info
-fields:
-- type: textarea
-  name: info
-  label: info
