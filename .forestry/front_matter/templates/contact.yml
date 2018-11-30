@@ -1,0 +1,14 @@
+---
+label: Contact
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: name
+  name: contact-name
+- type: text
+  name: telephone
+  label: telephone
+- type: text
+  name: e-mail
+  label: e-mail
