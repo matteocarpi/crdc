@@ -7,10 +7,8 @@ fields:
 - type: text
   name: title
   label: Title
-- type: textarea
-  config:
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: details
-  name: details
+- type: blocks
+  name: ''
+  label: ''
+  template_types:
+  - info

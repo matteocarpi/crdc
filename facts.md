@@ -1,29 +1,8 @@
 ---
 layout: facts
 title: Facts
-permalink: /facts
-technical_info:
-- template: tecnical-info
-  title: DURATION
-  details: |-
-    * 30-45 minutes per show
-    * 3 times daily
-- template: tecnical-info
-  title: AUDIENCE
-  details: |-
-    * Up to 100 active participants per show
-    * Inspired spectators (unlimited)
-- template: tecnical-info
-  title: REQUIREMENTS
-  details: |-
-    * Power connection 220V
-    * 100 Chairs without(!) armrests
-    * alternatively 21 marquee benches
-- template: tecnical-info
-  title: SPACE
-  details: |-
-    * 17m x11m (56ft x 37ft)
-    * other things
+permalink: "/facts"
+technical_info: []
 
 ---
 **DURATION**  
