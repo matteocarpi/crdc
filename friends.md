@@ -15,8 +15,5 @@ inner_circle:
 network:
 - template: person
   person-name: arthaus.berlin
-- template: person
-  person-name: Gut Buddies Theatre
-  person-role: Colleagues
 
 ---
