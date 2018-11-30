@@ -1,18 +1,23 @@
 ---
 layout: default
 ---
-{% for inner_circle in page.inner_circle %}
-<div class="friend">
-  <img src="{{ inner_circle.logo }}" alt="">
-  <h1>{{ inner_circle.person-name }}</h1>
-  <p>{{ inner_circle.person-role}}</p>
-</div>
-{%endfor%}
 
-{% for network in page.network %}
-<div class="collaborator">
-  <img src="{{ network.logo }}" alt="">
-  <h1>{{ network.person-name }}</h1>
-  <p>{{ network.person-role}}</p>
+<div class="inner_circle">
+    {% for inner_circle in page.inner_circle %}
+  <div class="friend">
+    <img src="{{ inner_circle.logo }}" alt="">
+    <h1>{{ inner_circle.person-name }}</h1>
+    <p>{{ inner_circle.person-role}}</p>
+  </div>
+  {%endfor%}
 </div>
-{%endfor%}
+
+<div class="network">
+  {% for network in page.network %}
+  <div class="network-person">
+    <img src="{{ network.logo }}" alt="">
+    <h1>{{ network.person-name }}</h1>
+    <p>{{ network.person-role}}</p>
+  </div>
+  {%endfor%}
+</div>

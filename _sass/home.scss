@@ -1,3 +1,23 @@
+body.home {
+  background-image: url(/assets/images/Backround-home.jpg);
+  box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, .2)
+}
+
+.header-home {
+  padding-top: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.languages {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.8em;
+}
+.languages > .cta {
+  margin: 0 2rem;
+}
 .logo {
   max-width: 20rem;
 }

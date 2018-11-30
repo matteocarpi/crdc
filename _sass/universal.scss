@@ -1,14 +1,38 @@
+//Colors
+$yellow: #FAF076;
+$green: #49927C;
+$blue: #02509E;
+
+//Fonts
+$general: 'Montserrat', sans-serif;
+
+* {
+  font: 100% $general;
+}
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+}
+
+a{
+  color: $yellow;
+  text-decoration: none;
+}
+.cta > a {
+  color: $yellow;
+  font-weight: bold;
+  text-decoration: none;
+}
 .cta {
- background: #49927C;
- background-image: linear-gradient(155deg, #02509E 7%, #49927C 57%, #FAF076 100%);
- border: 3px solid #FAF076;
+ background-image: linear-gradient(155deg, $blue 7%, $green 57%, $yellow 100%);
+ border: 3px solid $yellow;
  border-radius: 0.5rem;
  font-family: Montserrat-Bold;
  font-size: 18px;
- color: #FAF076;
  text-align: center;
  padding: 0.5rem 1.2rem;
- text-decoration: none;
  text-transform: uppercase;
 }
 .footer {
