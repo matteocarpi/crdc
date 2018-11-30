@@ -1,5 +1,6 @@
 ---
 layout: the-show
+permalink: /the-show
 title: The SHOW
 expectation-title: You are looking for...
 expectation-1: Streetcircus...

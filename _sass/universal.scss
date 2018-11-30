@@ -8,17 +8,24 @@ $general: 'Montserrat', sans-serif;
 
 * {
   font: 100% $general;
+  color: $yellow;
 }
 body {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
   overflow: hidden;
+  margin: 0;
 }
 
 a{
   color: $yellow;
   text-decoration: none;
+}
+
+.default-background {
+  background-image: url(/assets/images/Backround-default.jpg);
+  box-shadow: inset 0 0 0 100vmax rgba(73,146,124,0.73);
 }
 .cta > a {
   color: $yellow;
@@ -37,8 +44,8 @@ a{
 }
 .footer {
   position: absolute;
-  bottom: 1px;
-  right: 1px;
+  bottom: 0.5rem;
+  right: 2rem;
 }
 .logo-small {
   width: 4rem;

@@ -1,0 +1,34 @@
+.logo {
+  width: 15rem;
+  position: absolute;
+  left: 4rem;
+  top: 2em;
+}
+
+.cta.contact {
+  position: absolute;
+  right: 4rem;
+  top: 4.5rem;
+}
+.navigation-wrap {
+  display: flex;
+  justify-content: center;
+}
+.navigation {
+  margin-top: 5.3rem;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.menu-item {
+  text-align: center;
+  margin: 0 1.5em;
+  font-size: 23px;
+}
+.menu-item.active {
+font-size: 30px;
+color: #FAF076;
+font-weight: 900;
+}
