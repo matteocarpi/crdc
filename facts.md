@@ -8,6 +8,15 @@ technical_info:
   details: |-
     * 30-45 minutes per show
     * 3 times daily
+- template: tecnical-info
+  title: AUDIENCE
+  details: |-
+    * Up to 100 active participants per show
+    * Inspired spectators (unlimited)
+- template: tecnical-info
+  title: SPACE
+  details: "* 17m x 11m (56ft x 37ft)"
+- template: tecnical-info
 
 ---
 DURATION  
