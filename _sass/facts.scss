@@ -1,0 +1,22 @@
+.facts {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.left-column-facts {
+  display: flex;
+  flex-direction: column;
+}
+
+.crdc-map{
+  object-fit: scale-down;
+}
+.crdc-map img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20%;
+  height: auto;
+}

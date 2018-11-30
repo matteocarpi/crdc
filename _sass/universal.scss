@@ -13,9 +13,11 @@ $general: 'Montserrat', sans-serif;
 body {
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 100%;
+  width: 100%;
   overflow: hidden;
   margin: 0;
+  object-fit: scale-down;
 }
 
 a{
@@ -26,9 +28,12 @@ strong {
   font-weight: bold;
 }
 
-.default-background {
-  background-image: url(/assets/images/Backround-default.jpg);
-  box-shadow: inset 0 0 0 100vmax rgba(73,146,124,0.73);
+body.default-background {
+  background:    linear-gradient(
+      rgba(255, 0, 0, 0.45),
+      rgba(255, 0, 0, 0.45)
+      ),
+      url(/assets/images/Backround-default.jpg);
 }
 .cta > a {
   color: $yellow;
