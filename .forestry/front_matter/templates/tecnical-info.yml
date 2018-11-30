@@ -1,0 +1,15 @@
+---
+label: Tecnical Info
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: title
+  label: Title
+- type: textarea
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: details
+  name: details
