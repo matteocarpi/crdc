@@ -15,5 +15,8 @@ inner_circle:
 network:
 - template: person
   person-name: arthaus.berlin
+- template: person
+  person-name: Miao
+  person-role: Bau
 
 ---
