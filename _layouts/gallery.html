@@ -1,14 +1,63 @@
 ---
 layout: default
 ---
-<div class="gallery">
-  <div><img src="uploads/crazy-rumble-drum-circus-gallery-1.jpg"</div>
-  <div>your content</div>
-  <div>your content</div>
+
+<div class="slider slider-for">
+  <div class="slider-for" ><img src="/uploads/crazy-rumble-drum-circus-gallery-12.jpg"></div>
+  <div><img class="gallery-pic" src="/uploads/crazy-rumble-drum-circus-gallery-2.jpg"></div>
+  <div><img class="gallery-pic" src="/uploads/crazy-rumble-drum-circus-gallery-3.jpg"></div>
+  <div><img class="gallery-pic" src="/uploads/crazy-rumble-drum-circus-gallery-4.jpg"></div>
+  <div><img class="gallery-pic" src="/uploads/crazy-rumble-drum-circus-gallery-5.jpg"></div>
+  <div><img class="gallery-pic" src="/uploads/crazy-rumble-drum-circus-gallery-6.jpg"></div>
+  <div><img class="gallery-pic" src="/uploads/crazy-rumble-drum-circus-gallery-7.jpg"></div>
+  <div><img class="gallery-pic" src="/uploads/crazy-rumble-drum-circus-gallery-8.jpg"></div>
+  <div><img class="gallery-pic" src="/uploads/crazy-rumble-drum-circus-gallery-9.jpg"></div>
+  <div><img class="gallery-pic" src="/uploads/crazy-rumble-drum-circus-gallery-10.jpg"></div>
+  <div><img class="gallery-pic" src="/uploads/crazy-rumble-drum-circus-gallery-11.jpg"></div>
+  <div><img class="gallery-pic" src="/uploads/crazy-rumble-drum-circus-gallery-12.jpg"></div>
 </div>
 
-<!-- Script for gallery carousel -->
+<div class="slider slider-nav">
+  <div><img class="gallery-pic" src="/uploads/crazy-rumble-drum-circus-gallery-1.jpg"></div>
+  <div><img class="gallery-pic" src="/uploads/crazy-rumble-drum-circus-gallery-2.jpg"></div>
+  <div><img class="gallery-pic" src="/uploads/crazy-rumble-drum-circus-gallery-3.jpg"></div>
+  <div><img class="gallery-pic" src="/uploads/crazy-rumble-drum-circus-gallery-4.jpg"></div>
+  <div><img class="gallery-pic" src="/uploads/crazy-rumble-drum-circus-gallery-5.jpg"></div>
+  <div><img class="gallery-pic" src="/uploads/crazy-rumble-drum-circus-gallery-6.jpg"></div>
+  <div><img class="gallery-pic" src="/uploads/crazy-rumble-drum-circus-gallery-7.jpg"></div>
+  <div><img class="gallery-pic" src="/uploads/crazy-rumble-drum-circus-gallery-8.jpg"></div>
+  <div><img class="gallery-pic" src="/uploads/crazy-rumble-drum-circus-gallery-9.jpg"></div>
+  <div><img class="gallery-pic" src="/uploads/crazy-rumble-drum-circus-gallery-10.jpg"></div>
+  <div><img class="gallery-pic" src="/uploads/crazy-rumble-drum-circus-gallery-11.jpg"></div>
+  <div><img class="gallery-pic" src="/uploads/crazy-rumble-drum-circus-gallery-12.jpg"></div>
+</div>
+
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript" src="/slick/slick.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.slider-for').slick({
+     slidesToShow: 1,
+     slidesToScroll: 1,
+     arrows: false,
+     fade: true,
+     asNavFor: '.slider-nav'
+    });
+  });
+  $(document).ready(function(){
+    $('.slider-nav').slick({
+     slidesToShow: 3,
+     slidesToScroll: 1,
+     asNavFor: '.slider-for',
+     dots: true,
+     centerMode: true,
+     focusOnSelect: true
+    });
+  });
+</script>
+
+<!-- Script for gallery carousel -->
+
 {% include navigation-show.html %}

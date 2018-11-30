@@ -1,3 +1,11 @@
+//
+// $(document).ready(function(){
+//   $('.gallery').slick({
+//     setting-name: setting-value
+//   });
+// });
+
+
 $('.slider-for').slick({
  slidesToShow: 1,
  slidesToScroll: 1,
@@ -13,4 +21,3 @@ $('.slider-nav').slick({
  centerMode: true,
  focusOnSelect: true
 });
-   
