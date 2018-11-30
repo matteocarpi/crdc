@@ -8,3 +8,5 @@ fields:
   name: technical_info
   template_types:
   - tecnical-info
+pages:
+- facts.md
