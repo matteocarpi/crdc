@@ -1,0 +1,10 @@
+---
+label: Facts
+hide_body: false
+is_partial: false
+fields:
+- type: blocks
+  label: Technical info
+  name: technical_info
+  template_types:
+  - tecnical-info
