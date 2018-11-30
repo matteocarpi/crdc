@@ -10,11 +10,8 @@ inner_circle:
   person-name: Angharad Matthews
   person-role: Costume Design
 - template: person
-  person-name: Remo
+  person-name: ''
   logo: "/uploads/Remo-Logo.png"
-- template: person
-  person-name: Random friend
-  person-role: Ciao
 network:
 - template: person
   person-name: arthaus.berlin
