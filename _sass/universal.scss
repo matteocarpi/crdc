@@ -15,7 +15,7 @@ body {
   background-repeat: no-repeat;
   height: 100vh;
   width: 100vw;
-  overflow: hidden;
+  // overflow: hidden;
   margin: 0;
   object-fit: scale-down;
 }
@@ -27,16 +27,16 @@ a{
 strong {
   font-weight: bold;
 }
-
 body.default-background {
   background:    linear-gradient(
       rgba(73, 146, 124, 0.7),
-      rgba(73, 146, 124, 0.5)
+      rgba(73, 146, 124, 0.7)
       ),
       url(/assets/images/Backround-default.jpg);
   background-size: cover;
 
 }
+
 .cta > a {
   color: $yellow;
   font-weight: bold;

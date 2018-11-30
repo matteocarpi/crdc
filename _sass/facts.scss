@@ -1,4 +1,6 @@
+//Flex
 .facts {
+  margin-top: 4em;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -8,15 +10,17 @@
 .left-column-facts {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
 }
 
-.crdc-map{
-  object-fit: scale-down;
+img.map {
+  width: 700px;
+  align-items: center;
 }
-.crdc-map img {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 20%;
-  height: auto;
+
+img.circus {
+  width: 400px;
+  margin-top: 2em;
+  border-color: $yellow;
+  border: solid 3px;
 }
