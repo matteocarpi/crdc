@@ -2,6 +2,7 @@
 label: Facts
 hide_body: false
 is_partial: false
-fields: []
+fields:
+- type: text
 pages:
 - facts.md
