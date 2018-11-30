@@ -3,6 +3,7 @@ layout: facts
 title: Facts
 permalink: "/facts"
 technical_info: []
+undefined: Facts
 
 ---
 **DURATION**  
