@@ -1,6 +1,12 @@
 body.home {
-  background-image: url(/assets/images/Backround-home.jpg);
-  box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, .2)
+  background:
+        linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+        ),
+        url(/assets/images/Backround-home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header-home {
