@@ -15,11 +15,11 @@ technical_info:
     * Inspired spectators (unlimited)
 - template: tecnical-info
   title: SPACE
-  details: "* 17m x 11m (56ft x 37ft)"
+  details: * 17m x 11m (56ft x 37ft)
 - template: tecnical-info
   title: REQUIREMENTS
-  details: "\\- Power connection 220V  \n\\- 100 Chairs without(!) armrests  \n\\-
-    alternatively 21 marquee benches"
+  details: \\- Power connection 220V  \n\\- 100 Chairs without(!) armrests  \n\\-
+    alternatively 21 marquee benches
 
 ---
 **DURATION**  

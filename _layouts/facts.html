@@ -3,8 +3,14 @@ layout: default
 ---
 
 <div class="left-column-facts">
-  <p>{{ content }}</p>
+
+  {% for technical_info in page.technical_info %}
+    <h1>{{ technical_info.title }}</h1>
+    <p>{{ technical_info.details }}</p>
+  {% endfor %}
+
   <img src="/assets/images/image-drum-circle-set.png" alt="">
 </div>
+
 
 <img class="crdc-map" src="/assets/images/CRDC_MAP.png" alt="">
