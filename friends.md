@@ -12,6 +12,9 @@ inner_circle:
 - template: person
   person-name: Remo
   logo: "/uploads/Remo-Logo.png"
+- template: person
+  person-name: Random friend
+  person-role: Ciao
 network:
 - template: person
   person-name: arthaus.berlin
