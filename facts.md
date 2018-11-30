@@ -18,8 +18,10 @@ technical_info:
   details: "* 17m x 11m (56ft x 37ft)"
 - template: tecnical-info
   title: REQUIREMENTS
-  details: "\\- Power connection 220V  \n\\- 100 Chairs without(!) armrests  \n\\-
-    alternatively 21 marquee benches"
+  details: |-
+    * Power connection 220V
+    * 100 Chairs without(!) armrests
+    * alternatively 21 marquee benches
 
 ---
 **DURATION**  
