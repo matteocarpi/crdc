@@ -22,6 +22,9 @@ a{
   color: $yellow;
   text-decoration: none;
 }
+strong {
+  font-weight: bold;
+}
 
 .default-background {
   background-image: url(/assets/images/Backround-default.jpg);

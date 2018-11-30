@@ -1,7 +1,7 @@
 ---
 layout: facts
 title: Facts
-permalink: "/facts"
+permalink: /facts
 technical_info:
 - template: tecnical-info
   title: DURATION

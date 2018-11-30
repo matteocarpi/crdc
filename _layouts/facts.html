@@ -3,12 +3,7 @@ layout: default
 ---
 
 <div class="left-column-facts">
-
-  {% for technical_info in page.technical_info %}
-    <h1>{{ technical_info.title }}</h1>
-    <p>{{ technical_info.details }}</p>
-  {% endfor %}
-
+  {{ content | markdownify }}
   <img src="/assets/images/image-drum-circle-set.png" alt="">
 </div>
 
