@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="contact-wrapper">
 
-  <div class="impressum">
+  <div class="contacts">
     <p class="name"><strong>{{ page.contact-name }}</strong></p>
     <p>{{ page.telephone }}</p>
     <p>{{ page.e-mail }}</p>
@@ -11,12 +11,14 @@ layout: default
   </div>
 
 
-  <form action="https://getsimpleform.com/messages?form_api_token=aa0a1c58e87ea8816ba9ff7d7a71d0ef" method="post">
+  <form class="contact-form" action="https://getsimpleform.com/messages?form_api_token=aa0a1c58e87ea8816ba9ff7d7a71d0ef" method="post">
     <!-- all your input fields here.... -->
-    <input type='text' name='name' placeholder="Name"/>
-    <input type="email:" name="email" placeholder="e-mail" value="">
-    <textarea name="message" rows="20" cols="80"></textarea>
-    <input type='submit' value='Send' />
+<div>
+    <input class="contact-field contactform-name" type='text' name='name' placeholder="Name"/>
+    <input class="contact-field contact-form-email" type="email:" name="email" placeholder="e-mail" value="">
+</div>
+    <textarea class="contact-field" name="message" rows="20" cols="80"></textarea>
+    <input class="contact-field" type='submit' value='Send' />
   </form>
 <!-- REMEMBER TO PUT THANKYOU MESSAGE WHEN YOU STYLE THIS -->
 </div>

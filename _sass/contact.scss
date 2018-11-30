@@ -1,9 +1,14 @@
 .contact-wrapper {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   height: 80%;
 }
-.impressum {
+.contacts {
   text-align: center;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+
 }
