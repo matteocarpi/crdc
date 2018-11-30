@@ -21,7 +21,9 @@ technical_info:
     * alternatively 21 marquee benches
 - template: tecnical-info
   title: SPACE
-  details: "* 17m x11m (56ft x 37ft)"
+  details: |-
+    * 17m x11m (56ft x 37ft)
+    * other things
 
 ---
 **DURATION**  
