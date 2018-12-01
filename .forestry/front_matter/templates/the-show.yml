@@ -20,3 +20,17 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+- type: textarea
+  name: offer_2_en
+  label: offer 2
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: textarea
+  name: offer_3_en
+  label: offer 3
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
