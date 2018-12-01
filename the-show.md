@@ -22,7 +22,7 @@ offer_2_en: |-
      plus countless inspired spectators!
 offer_3_en: "...a creatively activated audience and a groovy festival community! "
 expectation_title_de: ''
-offer_title_de: ''
+offer_title_de: prova
 expectation_1_de: ''
 expectation_2_de: ''
 expectation_3_de: ''
