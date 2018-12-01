@@ -14,11 +14,11 @@ layout: default
     <form class="contact-form" action="https://getsimpleform.com/messages?form_api_token=aa0a1c58e87ea8816ba9ff7d7a71d0ef" method="post">
       <!-- all your input fields here.... -->
       <div class="name-email">
-          <input class="contact-field contactform-name" type='text' name='name' placeholder="Name" required/>
-          <input class="contact-field contactform-email" type="email" name="email" placeholder="e-mail" value="" required>
+          <input id="name" class="contact-field contactform-name" type='text' name='name' placeholder="Name" required/>
+          <input id="email"class="contact-field contactform-email" type="email" name="email" placeholder="e-mail" value="" required>
       </div>
 
-      <textarea class="contact-field" name="message" rows="20" cols="80" placeholder="Your Message" required></textarea>
+      <textarea id="message" class="contact-field" name="message" rows="20" cols="80" placeholder="Your Message" required></textarea>
 
       <input class="contact-field submit" type='submit' value='Send' />
 
@@ -32,13 +32,13 @@ layout: default
 <script type="text/javascript">
 document.querySelector(".submit").addEventListener('click', function(e) {
 var userInputName = document.getElementsByName("name")[0].value,
-  userInputEmail = document.getElementsByName("email")[0].value,
-  userInputMessage = document.getElementsByName("message")[0].value;
+    userInputEmail = document.getElementsByName("email")[0].value,
+    userInputMessage = document.getElementsByName("message")[0].value;
 
-if (userInputName.length > 0 && userInputEmail.length > 0 && userInputMessage.value.length > 0)
+if (userInputName.length > 0 && userInputEmail.length > 0 && userInputMessage.length > 0)
 {
-document.querySelector(".thanks").style.display = "block";
-document.querySelector(".contact-form").style.display = "none";
+  document.querySelector(".thanks").style.display = "block";
+  document.querySelector(".contact-form").style.display = "none";
 }
 else
 {
