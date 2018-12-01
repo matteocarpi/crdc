@@ -39,7 +39,9 @@ body.default-background {
   background-size: cover;
 
 }
-
+.block {
+  display: block;
+}
 .cta > a {
   color: $yellow;
   font-weight: bold;
