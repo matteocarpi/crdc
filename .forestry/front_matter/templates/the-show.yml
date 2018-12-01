@@ -34,3 +34,24 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+- type: textarea
+  name: expectation_1_en
+  label: expectation 1
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: textarea
+  name: expectation_2_en
+  label: Expectation 2
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: textarea
+  name: expectation_3_en
+  label: expectation 3
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
