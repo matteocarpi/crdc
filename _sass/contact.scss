@@ -63,9 +63,12 @@ input[type='submit'] {
 }
 input, textarea {
   background: rgba(0, 0, 0, 0);
-  border: solid $yellow;
+  border: none;
   border-radius: 3px;
   outline: none;
+}
+textarea, .submit {
+    border: solid $yellow;
 }
 input:focus, textarea:focus, select:focus {
     outline-offset: 0px;
@@ -76,7 +79,14 @@ input:focus, textarea:focus, select:focus {
 .form-wrap{
   position: relative;
 }
+.contactform-email, .contactform-name {
+  border-bottom: solid $yellow;
+}
 .thanks {
   position: absolute;
-  right: 15rem;
+  right: 21%;
+  display: none;
+}
+.thanks > img {
+  max-width: 20rem;
 }

@@ -10,20 +10,29 @@ layout: default
     <a href="https://www.facebook.com/CrazyRumbleDrumCircus/?ref=br_rs"><i class="fab fa-facebook-f"></i></a>
   </div>
 
-<div class="form-wrap">
-  <form class="contact-form" action="https://getsimpleform.com/messages?form_api_token=aa0a1c58e87ea8816ba9ff7d7a71d0ef" method="post">
-    <!-- all your input fields here.... -->
-    <div class="name-email">
-        <input class="contact-field contactform-name" type='text' name='name' placeholder="Name" required/>
-        <input class="contact-field contact-form-email" type="email:" name="email" placeholder="e-mail" value="" required>
-    </div>
+  <div class="form-wrap">
+    <form class="contact-form" action="https://getsimpleform.com/messages?form_api_token=aa0a1c58e87ea8816ba9ff7d7a71d0ef" method="post">
+      <!-- all your input fields here.... -->
+      <div class="name-email">
+          <input class="contact-field contactform-name" type='text' name='name' placeholder="Name" required/>
+          <input class="contact-field contactform-email" type="email" name="email" placeholder="e-mail" value="" required>
+      </div>
 
-    <textarea class="contact-field" name="message" rows="20" cols="80" placeholder="Your Message" required></textarea>
+      <textarea class="contact-field" name="message" rows="20" cols="80" placeholder="Your Message" required></textarea>
 
-    <input class="contact-field" type='submit' value='Send' />
+      <input class="contact-field submit" type='submit' value='Send' />
 
-  </form>
-  <p class="thanks">{page.thank_you_message}</p>
+    </form>
+  </div>
+  <div  class="thanks">
+    <img src="assets/images/mail.png" alt="">
+    <h1>{{page.thank_you_message}}</h1>
+  </div>
 </div>
-<!-- REMEMBER TO PUT THANKYOU MESSAGE WHEN YOU STYLE THIS -->
-</div>
+<script type="text/javascript">
+  function displayThanks() {
+    document.querySelector(".thanks").style.display = "block";
+    document.querySelector(".contact-form").style.display = "none";
+  }
+  document.querySelector(".submit").addEventListener("submit", displayThanks
+</script>
