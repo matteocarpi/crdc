@@ -5,21 +5,32 @@ layout: default
   <div>
     <img class="show" src="/assets/images/image-show.png" alt="">
   </div>
+  
+<div class="table-wrap">
+    <table>
+      <tbody>
+        <tr>
+          <td class="expectations"><h1> {{ page.expectation_title_en }} </h1></td>
+          <td><h1>{{ page.offer_title_en }}</h1></td>
+        </tr>
 
-  <div class="offer-wrapper">
-    <div class="expectations">
-      <h1> {{ page.expectation_title_en }} </h1>
-        <p>{{ page.expectation_1_en | markdownify }}</p>
-        <p>{{ page.expectation_2_en | markdownify }}</p>
-        <p>{{ page.expectation_3_en | markdownify }}</p>
-    </div>
+        <tr>
+          <td class="expectations"><p class="statement">{{ page.expectation_1_en | markdownify }}</p></td>
+          <td><p class="statement">{{ page.offer_1_en | markdownify }}</p></td>
+        </tr>
 
-    <div class="offer">
-      <h1>{{ page.offer_title_en | markdownify }}</h1>
-        <p>{{ page.offer_1_en | markdownify }}</p>
-        <p>{{ page.offer_2_en | markdownify }}</p>
-        <p>{{ page.offer_3_en | markdownify }}</p>
-      </div>
+        <tr>
+          <td class="expectations"><p class="statement">{{ page.expectation_2_en | markdownify }}</p></td>
+          <td><p class="statement">{{ page.offer_2_en | markdownify }}</p></td>
+        </tr>
+
+        <tr>
+          <td class="expectations"><p>{{ page.expectation_3_en | markdownify }}</p></td>
+          <td><p>{{ page.offer_3_en | markdownify }}</p></td>
+        </tr>
+
+      </tbody>
+    </table>
   </div>
 </div>
 {% include navigation-show.html %}
