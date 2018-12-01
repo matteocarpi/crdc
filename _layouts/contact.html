@@ -10,15 +10,20 @@ layout: default
     <a href="https://www.facebook.com/CrazyRumbleDrumCircus/?ref=br_rs"><i class="fab fa-facebook-f"></i></a>
   </div>
 
-
+<div class="form-wrap">
   <form class="contact-form" action="https://getsimpleform.com/messages?form_api_token=aa0a1c58e87ea8816ba9ff7d7a71d0ef" method="post">
     <!-- all your input fields here.... -->
-<div>
-    <input class="contact-field contactform-name" type='text' name='name' placeholder="Name"/>
-    <input class="contact-field contact-form-email" type="email:" name="email" placeholder="e-mail" value="">
-</div>
-    <textarea class="contact-field" name="message" rows="20" cols="80"></textarea>
+    <div class="name-email">
+        <input class="contact-field contactform-name" type='text' name='name' placeholder="Name" required/>
+        <input class="contact-field contact-form-email" type="email:" name="email" placeholder="e-mail" value="" required>
+    </div>
+
+    <textarea class="contact-field" name="message" rows="20" cols="80" placeholder="Your Message" required></textarea>
+
     <input class="contact-field" type='submit' value='Send' />
+
   </form>
+  <p class="thanks">{page.thank_you_message}</p>
+</div>
 <!-- REMEMBER TO PUT THANKYOU MESSAGE WHEN YOU STYLE THIS -->
 </div>
