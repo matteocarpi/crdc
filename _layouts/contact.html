@@ -30,9 +30,19 @@ layout: default
   </div>
 </div>
 <script type="text/javascript">
-  function displayThanks() {
-    document.querySelector(".thanks").style.display = "block";
-    document.querySelector(".contact-form").style.display = "none";
-  }
-  document.querySelector(".submit").addEventListener("submit", displayThanks
+document.querySelector(".submit").addEventListener('click', function(e) {
+var userInputName = document.getElementsByName("name")[0].value,
+  userInputEmail = document.getElementsByName("email")[0].value,
+  userInputMessage = document.getElementsByName("message")[0].value;
+
+if (userInputName.length > 0 && userInputEmail.length > 0 && userInputMessage.value.length > 0)
+{
+document.querySelector(".thanks").style.display = "block";
+document.querySelector(".contact-form").style.display = "none";
+}
+else
+{
+e.preventDefault();
+}
+}, false);
 </script>
