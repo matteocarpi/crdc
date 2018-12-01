@@ -1,7 +1,7 @@
 ---
 label: The Show
 hide_body: false
-is_partial: true
+is_partial: false
 fields:
 - name: expectation_title_en
   label: Expectation title en
