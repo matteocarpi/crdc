@@ -12,5 +12,9 @@ fields:
 - type: text
   name: e-mail
   label: e-mail
+- type: text
+  name: thank_you_message
+  label: thank you message
+  default: Thanks for your message!
 pages:
 - contact.md
