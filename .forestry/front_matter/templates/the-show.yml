@@ -1,0 +1,60 @@
+---
+label: The SHOW
+hide_body: 
+is_partial: 
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: ''
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: permalink
+  label: Permalink
+  type: text
+  hidden: false
+  default: ''
+- name: expectation-title
+  label: Expectation title
+  type: text
+  hidden: false
+  default: ''
+- name: expectation-1
+  label: Expectation 1
+  type: text
+  hidden: false
+  default: ''
+- name: expectation-2
+  label: Expectation 2
+  type: text
+  hidden: false
+  default: ''
+- name: expectation-3
+  label: Expectation 3
+  type: text
+  hidden: false
+  default: ''
+- name: offer-title
+  label: Offer title
+  type: text
+  hidden: false
+  default: ''
+- name: offer-1
+  label: Offer 1
+  type: text
+  hidden: false
+  default: ''
+- name: offer-2
+  label: Offer 2
+  type: text
+  hidden: false
+  default: ''
+- name: offer-3
+  label: Offer 3
+  type: text
+  hidden: false
+  default: ''
