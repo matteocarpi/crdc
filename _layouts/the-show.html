@@ -1,22 +1,25 @@
 ---
 layout: default
 ---
-<img src="/assets/images/image-show.png" alt="">
-
-
-<div class="offer-wrapper">
-  <div class="expectations">
-    <h1> {{ page.expectation-title }} </h1>
-      <p>{{ page.expectation-1 }}</p>
-      <p>{{ page.expectation-2 }}</p>
-      <p>{{ page.expectation-3 }}</p>
+<div class="show-wrapper">
+  <div>
+    <img class="show" src="/assets/images/image-show.png" alt="">
   </div>
 
-  <div class="offer">
-    <h1>{{ page.offer-title }}</h1>
-      <p>{{ page.offer-1 }}</p>
-      <p>{{ page.offer-2 }}</p>
-      <p>{{ page.offer-3 }}</p>
+  <div class="offer-wrapper">
+    <div class="expectations">
+      <h1> {{ page.expectation-title }} </h1>
+        <p>{{ page.expectation-1 }}</p>
+        <p>{{ page.expectation-2 }}</p>
+        <p>{{ page.expectation-3 }}</p>
+    </div>
+
+    <div class="offer">
+      <h1>{{ page.offer-title }}</h1>
+        <p>{{ page.offer-1 }}</p>
+        <p>{{ page.offer-2 }}</p>
+        <p>{{ page.offer-3 }}</p>
+      </div>
   </div>
 </div>
 {% include navigation-show.html %}

@@ -1,4 +1,18 @@
-.offer-wrapper {
+.show-wrapper {
   display: flex;
-  
+  flex-direction: column;
+  object-fit: contain;
+  align-items: center;
+}
+
+.offer-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.expectations {
+  text-align: right;
+  padding-right: 1em;
+}
+.offer {
+  padding-left: 1em;
 }
