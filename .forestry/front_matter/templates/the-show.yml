@@ -7,14 +7,14 @@ fields:
   label: Expectation title en
   type: text
   hidden: false
-  default: ''
+  default: You are looking for...
 - type: text
   name: expectation_title_de
   label: expectation title de
 - type: text
   name: offer_title_en
   label: Offer title en
-  default: ''
+  default: "...We offer you"
 - type: text
   name: offer_title_de
   label: offer title de
@@ -25,6 +25,7 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+  default: Streetcircus...
 - type: textarea
   name: expectation_1_de
   label: expectation 1 de
@@ -39,6 +40,7 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+  default: Music...
 - type: textarea
   name: expectation_2_de
   label: Expectation 2 de
@@ -53,6 +55,7 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+  default: Interaction
 - type: textarea
   name: expectation_3_de
   label: expectation 3 de
@@ -63,7 +66,7 @@ fields:
 - type: textarea
   name: offer_1_en
   label: offer 1 en
-  default: ''
+  default: "...an intergenerational show with lasting effect!"
   config:
     wysiwyg: true
     schema:
@@ -83,6 +86,10 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+  default: |-
+    ...up to 100 drummers in a rousing performance
+
+       plus countless inspired spectators!
 - type: textarea
   name: offer_2_de
   label: offer 2 de
@@ -97,6 +104,7 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+  default: "...a creatively activated audience and a groovy festival community! "
 - type: textarea
   name: offer_3_en
   label: offer 3 en
