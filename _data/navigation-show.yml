@@ -1,0 +1,8 @@
+- name: GALLERY
+  link: /the-show/gallery
+- name: VIDEO
+  link: /the-show/video
+- name: TEAM
+  link: /the-show/story
+- name: OFFER
+  link: /the-show
