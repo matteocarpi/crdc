@@ -70,3 +70,9 @@ td > p {
   margin: 0 5em;
   padding: 1em 0;
 }
+a.active-button-show:hover {
+  color: $yellow;
+}
+a.button-show:hover {
+  color: $blue;
+}
