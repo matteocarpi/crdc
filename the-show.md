@@ -29,5 +29,6 @@ expectation_3_de: ''
 offer_1_de: ''
 offer_2_de: ''
 undefined: "/uploads/crazy-rumble-drum-circus-gallery-4.jpg"
+image: "/uploads/crazy-rumble-drum-circus-gallery-4.jpg"
 
 ---
