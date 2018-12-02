@@ -3,8 +3,8 @@ label: Gallery
 hide_body: false
 is_partial: false
 fields:
-- type: image_gallery
-  name: photos
-  label: Photos
+- type: blocks
+  name: images
+  label: Images
 pages:
 - gallery.md
