@@ -7,6 +7,7 @@ $blue: #02509E;
 $general: 'Montserrat', sans-serif;
 
 * {
+  box-sizing: border-box;
   font: 100% $general;
   color: $yellow;
 }
@@ -81,6 +82,9 @@ body.default-background {
   position: absolute;
   bottom: 0.5rem;
   right: 2rem;
+}
+a.footer:hover {
+  color: $yellow !important;
 }
 .logo-small {
   width: 4rem;
