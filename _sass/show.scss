@@ -3,10 +3,9 @@
   margin-top: 4rem;
   grid-template-columns: 50% 50%;
   align-items: center;
-  justify-content: grid-column-start;
+  justify-items: center;
   width: 100%;
 }
-
 .expectations {
   text-align: right;
   padding-right: 0.5em;
@@ -18,7 +17,6 @@
 .offer {
   padding-left: 0.5em;
 }
-
 td {
   vertical-align: baseline;
   // min-width: 540px;
@@ -32,9 +30,7 @@ td > p {
   font-weight: 400;
   margin: 0.4rem 0;
 }
-img.show {
-  place-self: center;
-}
+
 //Footer-Show Navigation
 .show-footer-wrap {
   display: block;
