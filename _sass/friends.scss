@@ -1,0 +1,19 @@
+.friends-wrap {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+.friend, .network {
+  img {
+    margin: 2rem;
+  }
+}
+.inner_circle {
+  width: 100%;
+  border-right: solid;
+}
