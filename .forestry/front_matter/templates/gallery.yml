@@ -1,8 +1,8 @@
 ---
 label: Image
 hide_body: false
-is_partial: true
+is_partial: false
 fields:
-- type: file
-  label: Image
-  name: image
+- type: image_gallery
+  name: photos
+  label: Photos
