@@ -1,0 +1,45 @@
+.story-wrap {
+  display: flex;
+  width: 65%;
+  margin: 4rem auto;
+  padding: 2rem 4rem;
+  // padding-right: 2rem;
+  background-color: $green;
+  border-radius: 2rem;
+}
+.story-text {
+  p {
+    color: black;
+  }
+}
+.story-images {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 4rem;
+  margin-top: 4rem;
+}
+.story-image-1, .story-image-2 {
+  width: 17rem;
+  border: solid 3px;
+}
+.story-image-1 {
+  transform: rotate(14deg);
+}
+.story-image-2 {
+  transform: rotate(-14deg);
+}
+.story-text-wrap {
+  height: 35rem;
+  display: block;
+  overflow: scroll;
+  padding: 0 2rem;
+  min-height:101%;
+}
+.fas.fa-arrow-down {
+  font-size: 2rem;
+  position: absolute;
+  bottom: 0;
+  left: -5rem;
+}

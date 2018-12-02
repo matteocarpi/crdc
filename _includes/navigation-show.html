@@ -1,16 +1,20 @@
-<div class="show-footer">
-    <h1>3 PERFORMERS, 100 DRUMMERS, AND...</h1>
-<div class="show-navigation">
+<div class="show-footer-wrap"><div class="show-footer">
 
-  {% for item in site.data.navigation-show %}
-    {% if page.url == item.link %}
-      <a class="active-button-show" href="{{ item.link }}">{{ item.name }}</a>
+  <h1>3 PERFORMERS, 100 DRUMMERS, AND...</h1>
 
-      {% else %}
+  <div class="show-navigation">
 
-      <a class="button-show" href="{{ item.link }}">{{ item.name }}</a>
-    {% endif %}
-  {% endfor %}
+    {% for item in site.data.navigation-show %}
+      {% if page.url == item.link %}
+        <a class="active-button-show" href="{{ item.link }}">{{ item.name }}</a>
+
+        {% else %}
+
+        <a class="button-show" href="{{ item.link }}">{{ item.name }}</a>
+      {% endif %}
+    {% endfor %}
+
+  </div>
 
 </div>
 </div>
