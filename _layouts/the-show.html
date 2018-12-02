@@ -2,37 +2,39 @@
 layout: default
 ---
 <div class="show-wrapper">
+  <div class="table-wrap">
+      <table>
+        <tbody>
+          <tr>
+            <td class="expectations"><h1> {{ page.expectation_title_en }} </h1></td>
+            <td class="statement"><h1>{{ page.offer_title_en }}</h1></td>
+          </tr>
 
-    <div>
-      <img class="show" src="/assets/images/image-show.png" alt="">
+          <tr>
+            <td class="expectations"><p class="statement">{{ page.expectation_1_en | markdownify }}</p></td>
+            <td class="statement"><p>{{ page.offer_1_en | markdownify }}</p></td>
+          </tr>
+
+          <tr>
+            <td class="expectations"><p class="statement">{{ page.expectation_2_en | markdownify }}</p></td>
+            <td class="statement"><p >{{ page.offer_2_en | markdownify }}</p></td>
+          </tr>
+
+          <tr>
+            <td class="expectations"><p>{{ page.expectation_3_en | markdownify }}</p></td>
+            <td class="statement"><p>{{ page.offer_3_en | markdownify }}</p></td>
+          </tr>
+
+        </tbody>
+      </table>
     </div>
 
-<div class="table-wrap">
-    <table>
-      <tbody>
-        <tr>
-          <td class="expectations"><h1> {{ page.expectation_title_en }} </h1></td>
-          <td><h1>{{ page.offer_title_en }}</h1></td>
-        </tr>
 
-        <tr>
-          <td class="expectations"><p class="statement">{{ page.expectation_1_en | markdownify }}</p></td>
-          <td><p class="statement">{{ page.offer_1_en | markdownify }}</p></td>
-        </tr>
-
-        <tr>
-          <td class="expectations"><p class="statement">{{ page.expectation_2_en | markdownify }}</p></td>
-          <td><p class="statement">{{ page.offer_2_en | markdownify }}</p></td>
-        </tr>
-
-        <tr>
-          <td class="expectations"><p>{{ page.expectation_3_en | markdownify }}</p></td>
-          <td><p>{{ page.offer_3_en | markdownify }}</p></td>
-        </tr>
-
-      </tbody>
-    </table>
+  <div class="img-show-wrap">
+    <img class="show" src="/assets/images/image-show.png" alt="">
   </div>
-</div>
+  </div>
+
+
 {% include navigation-show.html %}
 <!--  is my profile picture online? -->
