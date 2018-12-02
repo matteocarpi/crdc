@@ -1,0 +1,16 @@
+// Tablet
+@media screen and (max-width: 768px) {
+  //Home
+  body.home {
+    background-position: center;
+  }
+  //Show
+  .show-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  img.show {
+    max-width: 30rem;
+  }
+
+}

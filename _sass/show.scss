@@ -17,6 +17,9 @@
 .offer {
   padding-left: 0.5em;
 }
+.table-wrap {
+  padding: 0 2em;
+}
 td {
   vertical-align: baseline;
   // min-width: 540px;
@@ -75,4 +78,10 @@ a.active-button-show:hover {
 }
 a.button-show:hover {
   color: $blue;
+}
+.img-show{
+  margin: 0 2em;
+  width: 70%;
+  padding-top: 52.5%;
+  background-size: contain;
 }
