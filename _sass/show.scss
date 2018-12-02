@@ -39,9 +39,7 @@ td > p {
   display: block;
 }
 .show-footer {
-  position: absolute;
   width: 100%;
-  bottom: 3em;
   padding-top: 1em;
   border-top: solid 3px;
   display: flex;
@@ -83,5 +81,4 @@ a.button-show:hover {
   margin: 0 2em;
   width: 70%;
   padding-top: 52.5%;
-  background-size: contain;
 }
