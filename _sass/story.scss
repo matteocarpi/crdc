@@ -24,6 +24,9 @@
   // flex-direction: column;
   // align-items: center;
   // margin: 2rem 0 2rem 2rem;
+  margin-left: 10%;
+  margin-top: 3%;
+  height: 80%
 }
 
 .story-image-1 {
@@ -40,6 +43,7 @@
   border: solid 3px;
   padding-top: 3 / 4 * 75%;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .story-text-wrap {
   height: 25rem;
