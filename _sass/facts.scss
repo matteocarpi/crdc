@@ -1,10 +1,12 @@
 //Flex
 .facts {
   position: relative;
-  display: flex;
+  display: grid;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
 }
 .left-column-facts {
   display: flex;
@@ -12,14 +14,22 @@
   justify-content: flex-start;
 }
 
-img.map {
-  width: 700px;
-  align-items: center;
-}
+// img.map {
+//   width: 700px;
+//   align-items: center;
+// }
 
 img.circus {
   width: 400px;
   margin-top: 2em;
   border-color: $yellow;
   border: solid 3px;
+}
+.crdc-map {
+  background: url(/assets/images/CRDC_MAP.png);
+  width: 80%;
+  padding-top: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
