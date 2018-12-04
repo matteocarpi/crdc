@@ -3,7 +3,6 @@
   position: relative;
   display: grid;
   flex-direction: row;
-  justify-content: space-around;
   align-items: center;
   grid-template-columns: 50% 50%;
   justify-items: center;
@@ -14,10 +13,6 @@
   justify-content: flex-start;
 }
 
-// img.map {
-//   width: 700px;
-//   align-items: center;
-// }
 
 img.circus {
   width: 400px;
@@ -28,7 +23,7 @@ img.circus {
 .crdc-map {
   background: url(/assets/images/CRDC_MAP.png);
   width: 80%;
-  padding-top: 100%;
+  padding-top: 80%;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
