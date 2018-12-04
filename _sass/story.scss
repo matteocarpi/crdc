@@ -6,27 +6,30 @@
   background-color: $green;
   border-radius: 2rem;
   display: grid;
+}
+.story-content-wrap {
+  width: 100%;
+  margin: auto;
+  padding: auto;
+  display: grid;
   grid-template-columns: 50% 50%;
+  align-items: center;
 }
 .story-text {
   p {
     color: black;
   }
 }
-.story-images-wrap {
 
-}
 .story-images {
-  // position: relative;
-  // width: 100%;
-  // object-fit: scale-down;
-  // display: flex;
-  // flex-direction: column;
-  // align-items: center;
-  // margin: 2rem 0 2rem 2rem;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-left: 10%;
   margin-top: 3%;
-  height: 80%
+  height: 80%;
+  justify-content: space-around;
 }
 
 .story-image-1 {
