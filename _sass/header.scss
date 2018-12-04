@@ -1,7 +1,10 @@
 .header-wrapper {
-  display: flex;
-  margin-bottom: 2em;
-  position: relative;
+  // display: flex;
+  // margin-bottom: 2em;
+  // position: relative;
+  // align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 .logo {
   width: 15rem;
@@ -12,22 +15,29 @@
   color: $yellow;
 }
 .cta.contact {
+
   font-family: Montserrat, sans-serif;
   font-weight: bold;
   margin-left: 1.5rem;
   text-align: center;
 }
+.cta-contact-wrap {
+  height: 27%;
+  justify-self: center;
+  align-self: center;
+}
 .navigation-wrap {
   display: flex;
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
 }
 .navigation {
-  margin-top: 5.3rem;
+  // margin-top: 5.3rem;
   display: flex;
   justify-content: space-between;
   text-align: center;
   align-items: center;
+  width: max-content;
 }
 
 .menu-item {
