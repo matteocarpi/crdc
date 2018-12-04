@@ -1,8 +1,8 @@
 .team {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  margin-top: 2rem;
+  grid-template-rows: auto;
+  align-items: start;
   justify-items: center;
   img{
       border: solid 3px;
