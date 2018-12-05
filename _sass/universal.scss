@@ -9,7 +9,7 @@ $happy: 'Henny-Penny';
 
 @font-face {
   font-family: 'Henny-Penny';
-  src: url(/assets/fonts/HennyPenny-Regular.woff);
+  src: url({{ /assets/fonts/HennyPenny-Regular.woff | relative_url }});
 }
 * {
   box-sizing: border-box;
