@@ -20,8 +20,6 @@ body {
   min-height: 829px;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
-  width: 100vw;
   margin: 0;
   object-fit: scale-down;
   display: flex;
@@ -92,12 +90,14 @@ body.default-background {
  white-space: nowrap;
 }
 .footer {
-    text-align: right;
-    align-self: right;
-    margin-right: 2rem;
-    padding-bottom: 0.5rem;
+  display: block;
+  text-align: right;
+  align-self: right;
+  margin-right: 2rem;
+  padding-bottom: 0.5rem;
 }
 a.footer:hover {
+
   color: $yellow !important;
 }
 .logo-small {

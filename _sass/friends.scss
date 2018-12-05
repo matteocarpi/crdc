@@ -8,12 +8,17 @@
   align-items: center;
   text-align: center;
 }
-.friend, .network {
+.friend, .network-person {
+  margin-top: 3rem;
   img {
     margin: 2rem;
   }
 }
 .inner_circle {
+  margin-top: 3rem;
   width: 100%;
   border-right: solid;
+}
+.network {
+  margin-top: 3rem;
 }
