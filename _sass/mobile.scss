@@ -51,6 +51,26 @@
     grid-row-start: 1;
     margin-top: 0;
   }
+  //Team
+  .team {
+    grid-template-columns: 90%;
+    justify-content: center;
+    p {
+      width: 50%;
+    }
+    margin-top: 2rem;
+  }
+
+  .action-figure.berta {
+    grid-row-start: 2;
+  }
+  .action-figure.philipp {
+    grid-row-start: 4;
+  }
+  .action-figure {
+    margin-bottom: 8rem;
+  }
+
 }
 @media screen and (min-width: 992px) {
   .navbar-toggler {
