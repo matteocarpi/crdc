@@ -8,6 +8,10 @@ body.home {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.content-home {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+}
 
 .header-home {
   padding-top: 1rem;
@@ -26,4 +30,14 @@ body.home {
 }
 .logo-home {
   max-width: 20rem;
+}
+.keywords {
+  margin-top: 6rem;
+  justify-self: center;
+  align-self: center;
+}
+.keyword {
+  font: 100% $happy;
+  font-size: 60px;
+  line-height: 15rem;
 }
