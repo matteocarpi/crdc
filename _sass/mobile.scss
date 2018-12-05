@@ -56,7 +56,7 @@
     grid-template-columns: 90%;
     justify-content: center;
     p {
-      width: 50%;
+      width: 70%;
     }
     margin-top: 2rem;
   }
@@ -69,6 +69,7 @@
   }
   .action-figure {
     margin-bottom: 8rem;
+    margin-top: 2rem;
   }
   //Contact
   .contact-wrapper {
@@ -114,8 +115,19 @@
     width: 100%;
     padding: 0 0 2rem 0;
   }
-
+  //Facts
+  .facts {
+    margin: 0 auto;
+  }
+  img.circus {
+    width: 300px
+  }
+  .crdc-map {
+  width: 100%;
+  padding-top: 100%;
+  }
 }
+
 
 @media screen and (min-width: 992px) {
   .navbar-toggler {
