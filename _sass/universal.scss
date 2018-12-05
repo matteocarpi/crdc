@@ -57,6 +57,9 @@ a{
 strong {
   font-weight: bold;
 }
+a.cc-button {
+  color: $green !important;
+}
 body.default-background {
   background:    linear-gradient(
       rgba(73, 146, 124, 0.7),
