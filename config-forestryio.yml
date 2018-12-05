@@ -7,7 +7,7 @@ description: Write an awesome description for your new site here. You can edit t
 baseurl: "/crdc"
 url: https://matteocarpi.github.io
 twitter_username: jekyllrb
-github_username: jekyll
+github_username: matteocarpi
 markdown: kramdown
 theme: minima
 plugins:
