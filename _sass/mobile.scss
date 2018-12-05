@@ -1,18 +1,24 @@
 // Tablet
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
   //Home
   .keyword {
     display: none;
   }
   //Show
   .show-wrapper {
-    display: flex;
+    display: block;
     flex-direction: column;
   }
-  img.show {
+  .img-show {
     max-width: 30rem;
+    margin: 2rem auto;
   }
-  
+  .show-navigation {
+    grid-template-columns: 1fr;
+    width: 30%;
+    grid-row-gap: 1em;
+  }
+
 }
 @media screen and (min-width: 992px) {
   .navbar-toggler {
