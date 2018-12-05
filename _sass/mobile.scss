@@ -81,6 +81,43 @@
     margin-top: 2rem;
   }
 }
+@media screen and (max-width: 414px) {
+  //Header {
+  .header-wrap {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  .logo-home {
+    position: absolute;
+  }
+  //Home
+  body.home {
+    background-size: cover;
+  }
+  .content-home {
+    display: flex;
+  }
+  .languages {
+    flex-direction: column;
+    .cta {
+      margin: 1rem 0;
+    }
+  }
+  //Show
+  .show-footer {
+    h1 {
+      text-align: center;
+    }
+  }
+  .story-wrap {
+    width: 100%;
+    padding: 0 0 2rem 0;
+  }
+
+}
+
 @media screen and (min-width: 992px) {
   .navbar-toggler {
     display: none !important;
