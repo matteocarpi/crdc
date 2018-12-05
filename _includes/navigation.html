@@ -1,17 +1,20 @@
-<nav class="navigation">
-  {% for item in site.data.navigation %}
-    {% if page.url contains item.link %}
-      <div class="menu-item">
-        <a class="menu-item active" href="{{ item.link }}">
-          {{ item.name }}
-        </a>
-      </div>
-    {% else %}
-      <div class="menu-item">
-        <a class="menu-item" href="{{ item.link }}">
-          {{ item.name }}
-        </a>
-      </div>
-    {% endif %}
-  {% endfor %}
+<nav class="navigation navbar text-center navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler text-center ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      {% for item in site.data.navigation %}
+        {% if page.url contains item.link %}
+            <a class="menu-item active" href="{{ item.link }}">
+              {{ item.name }}
+            </a>
+        {% else %}
+            <a class="menu-item" href="{{ item.link }}">
+              {{ item.name }}
+            </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
 </nav>
