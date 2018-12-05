@@ -1,5 +1,5 @@
 // Tablet
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
   //Home
   body.home {
     background-position: center;
@@ -13,4 +13,9 @@
     max-width: 30rem;
   }
 
+}
+@media screen and (min-width: 992px) {
+  .navbar-toggler {
+    display: none !important;
+  }
 }
