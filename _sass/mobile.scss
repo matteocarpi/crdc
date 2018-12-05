@@ -84,11 +84,13 @@
 @media screen and (max-width: 414px) {
   //Header {
   .header-wrap {
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+  .logo {
+    margin: 1rem auto;
+  }
   //Home
   body.home {
     background-size: cover;
