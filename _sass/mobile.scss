@@ -56,7 +56,7 @@
     grid-template-columns: 90%;
     justify-content: center;
     p {
-      width: 50%;
+      width: 70%;
     }
     margin-top: 2rem;
   }
@@ -69,6 +69,7 @@
   }
   .action-figure {
     margin-bottom: 8rem;
+    margin-top: 2rem;
   }
   //Contact
   .contact-wrapper {
@@ -81,6 +82,74 @@
     margin-top: 2rem;
   }
 }
+@media screen and (max-width: 414px) {
+  //Header {
+  .header-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  .logo {
+    margin: 1rem auto;
+  }
+  //Home
+  body.home {
+    background-size: cover;
+  }
+  .content-home {
+    display: flex;
+  }
+  .languages {
+    flex-direction: column;
+    .cta {
+      margin: 1rem 0;
+    }
+  }
+  //Show
+  .show-footer {
+    h1 {
+      text-align: center;
+    }
+  }
+  .story-wrap {
+    width: 100%;
+    padding: 0 0 2rem 0;
+  }
+  //Facts
+  .facts {
+    margin: 0 auto;
+  }
+  img.circus {
+    width: 300px
+  }
+  .crdc-map {
+  width: 100%;
+  padding-top: 100%;
+  }
+  //Friends
+  .friends-wrap {
+    grid-template-columns: 100%;
+  }
+  .inner_circle {
+    border-right: none;
+    border-bottom: solid;
+  }
+  //Contacts
+  .contact-wrapper, .form-wrap {
+    width: 100%;
+    margin: 2rem auto;
+  }
+  .contact-form {
+    margin-bottom: 3rem;
+  }
+  //Impressum
+  .impressum-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
 @media screen and (min-width: 992px) {
   .navbar-toggler {
     display: none !important;
