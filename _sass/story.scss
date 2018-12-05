@@ -33,11 +33,11 @@
 }
 
 .story-image-1 {
-  background: url({{ "/assets/images/story-image-1.jpg" | relative_url}});
+  background: url({{ "/crdc/assets/images/story-image-1.jpg" | relative_url}});
   transform: rotate(14deg);
 }
 .story-image-2 {
-  background: url({{ "/assets/images/story-image-2.jpg" | relative_url }});
+  background: url("/crdc/assets/images/story-image-2.jpg");
   transform: rotate(-14deg);
 }
 .story-image-1, .story-image-2 {
