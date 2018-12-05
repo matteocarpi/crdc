@@ -9,16 +9,12 @@ layout: default
 
     <div class="carousel-item active">
 <<<<<<< HEAD
-      <img class="gallery d-block w-100" src= "{{ page.first_image | relative_url }}/800x400?auto=yes&bg=777&fg=555" alt="">
+      <img class="gallery d-block w-100" src= "{{ page.first_image | relative_url }}" alt="">
     </div>
     {% for images in page.images %}
     <div class="carousel-item">
       <img class="gallery d-block w-100" src= "{{ images.image | relative_url }}" alt="">
       <img class="gallery d-block w-100" src="{{ page.first_image | relative_url }}" alt="">
-    </div>
-    {% for images in page.images %}
-    <div class="carousel-item">
-      <img class="gallery d-block w-100" src="{{ images.image | relative_url}}" alt="">
     </div>
     {% endfor %}
   </div>
