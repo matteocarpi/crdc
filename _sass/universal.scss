@@ -9,7 +9,7 @@ $happy: 'Henny-Penny';
 
 @font-face {
   font-family: 'Henny-Penny';
-  src: url(/crdc/assets/fonts/HennyPenny-Regular.wof);
+  src: url("/crdc/assets/fonts/HennyPenny-Regular.wof");
 }
 * {
   box-sizing: border-box;
@@ -65,7 +65,7 @@ body.default-background {
       rgba(73, 146, 124, 0.7),
       rgba(73, 146, 124, 0.7)
       ),
-      url(/crdc/assets/images/Backround-default.jpg);
+      url("/crdc/assets/images/Backround-default.jpg");
   background-size: cover;
 
 }
