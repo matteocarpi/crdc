@@ -1,8 +1,8 @@
 // Tablet
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1200px) {
   //Home
-  body.home {
-    background-position: center;
+  .keyword {
+    display: none;
   }
   //Show
   .show-wrapper {
@@ -12,7 +12,7 @@
   img.show {
     max-width: 30rem;
   }
-
+  
 }
 @media screen and (min-width: 992px) {
   .navbar-toggler {
