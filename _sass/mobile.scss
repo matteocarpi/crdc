@@ -70,7 +70,16 @@
   .action-figure {
     margin-bottom: 8rem;
   }
-
+  //Contact
+  .contact-wrapper {
+    grid-template-columns: 90%;
+  }
+  * {
+    margin: 0 auto;
+  }
+  .contacts {
+    margin-top: 2rem;
+  }
 }
 @media screen and (min-width: 992px) {
   .navbar-toggler {
