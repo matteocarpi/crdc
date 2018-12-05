@@ -1,13 +1,13 @@
 <div class="header-wrap">
 
-      <a href="/"><img class="logo" src="/assets/images/crdc-logo.png" alt=""></a>
+      <a href="{{ / | relative_url }} "><img class="logo" src={{ "/assets/images/crdc-logo.png" | relative_url }} alt=""></a>
 
       <div class= "navigation">
         {% include navigation.html %}
       </div>
 
       <div class="cta-contact-wrap">
-        <a class="cta contact" href="/contact">CONTACT US</a>
+        <a class="cta contact" href={{ "/contact" | relative_url }}>CONTACT US</a>
       </div>
 
   </div>

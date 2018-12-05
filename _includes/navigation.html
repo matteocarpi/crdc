@@ -7,13 +7,13 @@
       {% for item in site.data.navigation %}
         {% if page.url contains item.link %}
           <div class="menu-item">
-            <a class="menu-item active" href="{{ item.link }}">
+            <a class="menu-item active" href="{{ item.link | relative_url }}">
               {{ item.name }}
             </a>
           </div>
         {% else %}
           <div class="menu-item">
-            <a class="menu-item" href="{{ item.link }}">
+            <a class="menu-item" href="{{ item.link | relative_url }}">
               {{ item.name }}
             </a>
           </div>
