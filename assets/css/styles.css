@@ -76,13 +76,8 @@ body.default-background {
 
 a.footer {
   position: absolute;
-  bottom: 0;
   right: 17%;
-  display: block;
-  text-align: right;
-  align-self: bottom;
-  margin-right: 2rem;
-  padding-bottom: 0.5rem; }
+  bottom: -7%; }
 
 a.footer:hover {
   color: #FAF076 !important; }
@@ -408,7 +403,7 @@ iframe.video-show {
 .story-wrap {
   width: 65%;
   height: min-content;
-  margin: 2rem auto;
+  margin: 0.6rem auto 2rem auto;
   padding: 2rem 4rem;
   background-color: #49927C;
   border-radius: 1rem;
