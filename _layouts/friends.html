@@ -6,7 +6,7 @@ layout: default
     <h1>Inner Circle</h1>
       {% for inner_circle in page.inner_circle %}
     <div class="friend">
-      <img src="{{ inner_circle.logo }}" alt=""/>
+      <img src="{{ inner_circle.logo | relative_url }}" alt=""/>
       <h2>{{ inner_circle.person-name }}</h2>
       <p>{{ inner_circle.person-role}}</p>
     </div>
