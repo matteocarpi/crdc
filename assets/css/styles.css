@@ -7,6 +7,7 @@
   color: #FAF076; }
 
 body {
+  position: relative;
   min-height: 829px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -73,7 +74,7 @@ body.default-background {
   text-transform: uppercase;
   white-space: nowrap; }
 
-.footer {
+a.footer {
   position: absolute;
   bottom: 0;
   right: 17%;
