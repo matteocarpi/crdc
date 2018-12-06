@@ -91,17 +91,11 @@ body.default-background {
  white-space: nowrap;
 }
 a.footer {
-  position: absolute;
-  bottom: 0;
-  right: 17%;
-  display: block;
-  text-align: right;
-  align-self: bottom;
-  margin-right: 2rem;
-  padding-bottom: 0.5rem;
+position: absolute;
+right: 17%;
+bottom: -7%;
 }
 a.footer:hover {
-
   color: $yellow !important;
 }
 .logo-small {
