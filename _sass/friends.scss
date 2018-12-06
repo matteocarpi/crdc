@@ -5,7 +5,7 @@
   display: grid;
   grid-template-columns: 50% 50%;
   justify-items: center;
-  align-items: center;
+  align-items: start;
   text-align: center;
 }
 .friend, .network-person {
@@ -15,10 +15,21 @@
   }
 }
 .inner_circle {
+  display: grid;
+  justify-items: center;
+  align-items: center;
   margin-top: 3rem;
   width: 100%;
   border-right: solid;
+  h1 {
+    width: max-content;
+    padding: 0 1rem;
+    border: solid 2px;
+  }
 }
 .network {
   margin-top: 3rem;
+  h1 {
+    border: solid 2px;
+  }
 }
