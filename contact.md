@@ -1,6 +1,5 @@
 ---
 layout: contact
-label: Contacts
 permalink: "/contact"
 contact-name: Crazy Rumble Drum Circus
 telephone: "+49(0) 163 21 47 324 "
