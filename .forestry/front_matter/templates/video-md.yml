@@ -1,0 +1,20 @@
+---
+label: video.md
+hide_body: 
+is_partial: 
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: ''
+- name: permalink
+  label: Permalink
+  type: text
+  hidden: false
+  default: ''
+- name: video-link
+  label: Video link
+  type: text
+  hidden: false
+  default: ''
