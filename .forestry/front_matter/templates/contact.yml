@@ -17,4 +17,4 @@ fields:
   label: thank you message
   default: Thanks for your message!
 pages:
-- Contact.md
+- contact.md
