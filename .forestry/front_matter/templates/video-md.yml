@@ -1,18 +1,8 @@
 ---
-label: video.md
-hide_body: 
-is_partial: 
+label: Video
+hide_body: false
+is_partial: false
 fields:
-- name: layout
-  label: Layout
-  type: text
-  hidden: false
-  default: ''
-- name: permalink
-  label: Permalink
-  type: text
-  hidden: false
-  default: ''
 - name: video-link
   label: Video link
   type: text
