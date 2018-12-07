@@ -2,9 +2,9 @@
 layout: story
 title: Story
 story-title: The Viewer's Perspective
-permalink: /the-show/story
----
+permalink: "/the-show/story"
 
+---
 Garlands of blinking lights invitingly adorn a circle of benches and a variety of drums. A fence, just noticeable enough to serve its role and yet unobtrusive enough to allow curious glances, surrounds the inviting scenario with the reminiscent flair of a circus or a fair attraction. A gate structure defines the way into the circle, but the gate is still veiled by a curtain.
 
 A flamboyantly cliché sign impossible to ignore proudly announces the sensation: “The Crazy Rumble Drum Circus!”

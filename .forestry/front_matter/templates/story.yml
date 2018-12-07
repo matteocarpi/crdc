@@ -1,0 +1,12 @@
+---
+label: Story
+hide_body: false
+is_partial: false
+fields:
+- name: story-title
+  label: Story title
+  type: text
+  hidden: false
+  default: ''
+pages:
+- story.md

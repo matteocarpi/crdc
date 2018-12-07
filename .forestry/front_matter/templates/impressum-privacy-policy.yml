@@ -1,0 +1,37 @@
+---
+label: Impressum & Privacy Policy
+hide_body: false
+is_partial: false
+fields:
+- name: contact-name
+  label: Contact name
+  type: text
+  hidden: false
+  default: ''
+- name: address
+  label: Address
+  type: text
+  hidden: false
+  default: ''
+- name: telephone
+  label: Telephone
+  type: text
+  hidden: false
+  default: ''
+- name: fax
+  label: Fax
+  type: text
+  hidden: false
+  default: ''
+- name: mobile
+  label: Mobile
+  type: text
+  hidden: false
+  default: ''
+- name: e-mail
+  label: E mail
+  type: text
+  hidden: false
+  default: ''
+pages:
+- impressum.md

@@ -1,0 +1,22 @@
+---
+label: Team
+hide_body: false
+is_partial: false
+fields:
+- name: berta
+  label: Berta
+  type: text
+  hidden: false
+  default: ''
+- name: philipp
+  label: Philipp
+  type: textarea
+  hidden: false
+  default: ''
+- name: florian
+  label: Florian
+  type: text
+  hidden: false
+  default: ''
+pages:
+- team.md
