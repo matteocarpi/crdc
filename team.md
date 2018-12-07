@@ -1,6 +1,7 @@
 ---
 layout: team
 permalink: "/team/"
+title: Team
 berta: "“It feels like my favourite childhood fairytale. When it’s over, I want to
   hear it again and again.”"
 philipp: "“Crazy Rumble Drum Circus are the happy shining eyes of the visitors in

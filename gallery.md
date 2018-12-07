@@ -1,6 +1,7 @@
 ---
 layout: gallery
 permalink: "/the-show/gallery"
+title: Gallery
 photos: []
 images:
 - template: image
