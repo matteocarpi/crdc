@@ -112,5 +112,3 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
-pages:
-- the-show.md

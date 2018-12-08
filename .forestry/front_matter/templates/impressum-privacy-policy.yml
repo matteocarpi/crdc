@@ -33,5 +33,3 @@ fields:
   type: text
   hidden: false
   default: ''
-pages:
-- impressum.md
