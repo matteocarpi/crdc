@@ -1,6 +1,6 @@
 ---
 layout: facts-de
-title: Facts
+title: Fa
 permalink: "/de/facts"
 technical_info: []
 undefined: Facts

@@ -1,7 +1,7 @@
 ---
 layout: gallery-de
 permalink: "/de/the-show/gallery"
-title: Gallery
+title: Gallerie
 photos: []
 images:
 - template: image
