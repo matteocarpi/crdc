@@ -2,6 +2,7 @@
 layout: friends
 title: Friends
 date: 2018-11-29 19:07:15 +0000
+permalink: "/en/friends"
 inner_circle:
 - template: person
   person-name: Matteo Carpi

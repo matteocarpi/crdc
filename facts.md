@@ -1,7 +1,7 @@
 ---
 layout: facts
 title: Facts
-permalink: "/facts"
+permalink: "/en/facts"
 technical_info: []
 undefined: Facts
 

@@ -1,6 +1,6 @@
 ---
 layout: team
-permalink: "/team/"
+permalink: "/en/team/"
 title: Team
 berta: "“It feels like my favourite childhood fairytale. When it’s over, I want to
   hear it again and again.”"

@@ -1,6 +1,6 @@
 ---
 layout: contact
-permalink: "/contact"
+permalink: "/en/contact"
 title: Contacts
 contact-name: Crazy Rumble Drum Circus
 telephone: "+49(0) 163 21 47 324 "

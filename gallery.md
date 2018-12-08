@@ -1,6 +1,6 @@
 ---
 layout: gallery
-permalink: "/the-show/gallery"
+permalink: "/en/the-show/gallery"
 title: Gallery
 photos: []
 images:
