@@ -1,5 +1,5 @@
 ---
-layout: facts
+layout: facts-de
 title: Facts
 permalink: "/de/facts"
 technical_info: []

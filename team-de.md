@@ -1,5 +1,5 @@
 ---
-layout: team
+layout: team-de
 permalink: "/de/team/"
 title: Team
 berta: "“It feels like my favourite childhood fairytale. When it’s over, I want to

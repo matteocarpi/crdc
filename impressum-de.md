@@ -1,5 +1,5 @@
 ---
-layout: impressum
+layout: impressum-de
 permalink: "/de/impressum"
 title: Impressum & Privacy Policy
 contact-name: Crazy Rumble Drum Circus Philipp Schaefer

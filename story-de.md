@@ -1,5 +1,5 @@
 ---
-layout: story
+layout: story-de
 title: Story
 story-title: The Viewer's Perspective
 permalink: "/de/the-show/story"

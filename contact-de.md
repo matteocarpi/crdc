@@ -1,5 +1,5 @@
 ---
-layout: contact
+layout: contact-de
 permalink: "/de/contact"
 title: Contacts
 contact-name: Crazy Rumble Drum Circus

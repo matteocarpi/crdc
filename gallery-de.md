@@ -1,5 +1,5 @@
 ---
-layout: gallery
+layout: gallery-de
 permalink: "/de/the-show/gallery"
 title: Gallery
 photos: []

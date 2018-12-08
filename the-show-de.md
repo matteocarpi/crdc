@@ -1,5 +1,5 @@
 ---
-layout: the-show
+layout: the-show-de
 permalink: "/de/the-show"
 title: The Show
 expectation-title: You are looking for...
