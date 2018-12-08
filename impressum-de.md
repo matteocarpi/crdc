@@ -1,6 +1,6 @@
 ---
 layout: impressum
-permalink: "/impressum"
+permalink: "/de/impressum"
 title: Impressum & Privacy Policy
 contact-name: Crazy Rumble Drum Circus Philipp Schaefer
 address: Teichstraße 10a · 21641 Apensen
