@@ -1,8 +1,8 @@
-- name: GALLERY
+- name: GALLERIE
   link: /de/the-show/gallery
 - name: VIDEO
   link: /de/the-show/video
 - name: STORY
   link: /de/the-show/story
-- name: OFFER
+- name: ANGEBOT
   link: /de/the-show
