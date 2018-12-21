@@ -13,11 +13,11 @@ fields:
   default: ''
 - type: text
   name: offer_title_en
-  label: Offer title en
+  label: Offer title
   default: ''
 - type: textarea
   name: expectation_1_en
-  label: expectation 1 en
+  label: expectation 1
   config:
     wysiwyg: true
     schema:
@@ -25,7 +25,7 @@ fields:
   default: ''
 - type: textarea
   name: expectation_2_en
-  label: Expectation 2 en
+  label: Expectation 2
   config:
     wysiwyg: true
     schema:
@@ -33,7 +33,7 @@ fields:
   default: ''
 - type: textarea
   name: expectation_3_en
-  label: expectation 3 en
+  label: expectation 3
   config:
     wysiwyg: true
     schema:
@@ -41,7 +41,7 @@ fields:
   default: ''
 - type: textarea
   name: offer_1_en
-  label: offer 1 en
+  label: offer 1
   default: ''
   config:
     wysiwyg: true
@@ -49,7 +49,7 @@ fields:
       format: markdown
 - type: textarea
   name: offer_2_en
-  label: offer 2 en
+  label: offer 2
   config:
     wysiwyg: true
     schema:
@@ -57,7 +57,7 @@ fields:
   default: ''
 - type: textarea
   name: offer_3_en
-  label: offer 3 en
+  label: offer 3
   config:
     wysiwyg: true
     schema:
