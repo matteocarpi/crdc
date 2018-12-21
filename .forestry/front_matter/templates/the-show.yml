@@ -7,20 +7,14 @@ fields:
   label: image
   name: image
 - name: expectation_title_en
-  label: Expectation title en
+  label: Expectation title
   type: text
   hidden: false
   default: ''
 - type: text
-  name: expectation_title_de
-  label: expectation title de
-- type: text
   name: offer_title_en
   label: Offer title en
   default: ''
-- type: text
-  name: offer_title_de
-  label: offer title de
 - type: textarea
   name: expectation_1_en
   label: expectation 1 en
@@ -30,13 +24,6 @@ fields:
       format: markdown
   default: ''
 - type: textarea
-  name: expectation_1_de
-  label: expectation 1 de
-  config:
-    wysiwyg: true
-    schema:
-      format: markdown
-- type: textarea
   name: expectation_2_en
   label: Expectation 2 en
   config:
@@ -44,13 +31,6 @@ fields:
     schema:
       format: markdown
   default: ''
-- type: textarea
-  name: expectation_2_de
-  label: Expectation 2 de
-  config:
-    wysiwyg: true
-    schema:
-      format: markdown
 - type: textarea
   name: expectation_3_en
   label: expectation 3 en
@@ -60,23 +40,8 @@ fields:
       format: markdown
   default: ''
 - type: textarea
-  name: expectation_3_de
-  label: expectation 3 de
-  config:
-    wysiwyg: true
-    schema:
-      format: markdown
-- type: textarea
   name: offer_1_en
   label: offer 1 en
-  default: ''
-  config:
-    wysiwyg: true
-    schema:
-      format: markdown
-- type: textarea
-  name: offer_1_de
-  label: offer 1 de
   default: ''
   config:
     wysiwyg: true
@@ -91,13 +56,6 @@ fields:
       format: markdown
   default: ''
 - type: textarea
-  name: offer_2_de
-  label: offer 2 de
-  config:
-    wysiwyg: true
-    schema:
-      format: markdown
-- type: textarea
   name: offer_3_en
   label: offer 3 en
   config:
@@ -105,12 +63,5 @@ fields:
     schema:
       format: markdown
   default: ''
-- type: textarea
-  name: offer_3_en
-  label: offer 3 en
-  config:
-    wysiwyg: true
-    schema:
-      format: markdown
 pages:
 - DE/the-show-de.md
