@@ -112,3 +112,5 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+pages:
+- DE/the-show-de.md

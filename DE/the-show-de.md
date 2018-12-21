@@ -10,17 +10,15 @@ offer-title: "...We offer you"
 offer-1: "...an intergenerational show with lasting effect!"
 offer-2: "...up to 100 drummers in a rousing performance plus countless inspired spectators!"
 offer-3: "...a creatively activated audience and a groovy festival community!"
-expectation_title_en: You are looking for...
-offer_title_en: "...We offer you"
-expectation_1_en: Streetcircus...
-expectation_2_en: Music...
-expectation_3_en: Interaction
-offer_1_en: "...an intergenerational show with lasting effect!"
-offer_2_en: |-
-  ...up to 100 drummers in a rousing performance
-
-     plus countless inspired spectators!
-offer_3_en: "...a creatively activated audience and a groovy festival community! "
+expectation_title_en: Sie suchen...
+offer_title_en: "...Wir bieten Ihnen"
+expectation_1_en: Straßenzirkus...
+expectation_2_en: Musik...
+expectation_3_en: 'Interaktion... '
+offer_1_en: "...eine generationsübergreifende Show mit nachhaltiger Wirkung!"
+offer_2_en: "...bis zu 100 Trommler in einer mitreißenden Performance \n\nzzgl. zahlloser
+  inspirierter Zuschauer!"
+offer_3_en: "...ein kreativ aktiviertes Publikum und eine groovende Festivalgemeinschaft!"
 expectation_title_de: ''
 offer_title_de: prova
 expectation_1_de: ''
