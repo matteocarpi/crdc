@@ -2,11 +2,11 @@
 layout: team-de
 permalink: "/de/team/"
 title: Team
-berta: "“It feels like my favourite childhood fairytale. When it’s over, I want to
-  hear it again and again.”"
-philipp: "“Crazy Rumble Drum Circus are the happy shining eyes of the visitors in
-  the circle, while enjoying the drumming and themselves. And the surrounding passers-by
-  following astonished how a wonderful transformation takes place.”"
-florian: "“Building a connection between strangers through music! That‘s what it is!”"
+berta: '"Es fühlt sich an wie mein Lieblingsmärchen aus Kindertagen. Wenn es vorüber
+  ist, könnte ich es wieder und wieder hören"'
+philipp: '"Crazy Rumble Drum Circus sind für mich die strahlenden Augen der Besucher
+  im Kreis, die das Trommeln und sich selbst genießen. Und die umstehenden Passanten
+  die staunend miterleben, wie sich eine wundersame Transformation vollzieht."'
+florian: '"Eine Verbindung zwischen Fremden schaffen mittels Musik! Das ist es!"'
 
 ---
