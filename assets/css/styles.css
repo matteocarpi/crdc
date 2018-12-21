@@ -194,7 +194,8 @@ body.home {
 .keyword {
   font: 100% "Henny-Penny";
   font-size: 60px;
-  line-height: 15rem; }
+  line-height: 15rem;
+  transform: rotate(-14deg); }
 
 .show-wrapper {
   display: grid;
