@@ -12,3 +12,5 @@ fields:
   label: Images
   template_types:
   - image
+pages:
+- DE/gallery-de.md
