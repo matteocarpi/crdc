@@ -16,3 +16,5 @@ fields:
   name: thank_you_message
   label: thank you message
   default: Thanks for your message!
+pages:
+- DE/contact-de.md
