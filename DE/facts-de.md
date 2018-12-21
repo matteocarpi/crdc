@@ -6,18 +6,19 @@ technical_info: []
 undefined: Facts
 
 ---
-**DURATION**  
-\- 30-45 minutes per show  
-\- 3 times daily
+**DAUER UND HÄUFIGKEIT**  
+\- 30 - 45 Minuten je Show   
+\- 3x täglich 
 
-**AUDIENCE**  
-\- Up to 100 active participants per show  
-\- Inspired spectators (unlimited)
+**PUBLIKUMSKAPAZITÄT**  
+\- 100 aktive Teilnehmer je Show  
+\- zzgl. inspirierte Zuschauer (unbegrenzt)
 
-**SPACE**  
+**PLATZBEDARF**  
 \- 17m x 11m (56ft x 37ft)
 
-**REQUIREMENTS**
-\- Power connection 220V  
-\- 100 Chairs without(!) armrests  
-\- alternatively 21 marquee benches
+**MATERIALANFORDERUNGEN**  
+
+\- Stromanschluß  220V  
+\- 100 Stühle ohne(!) Armlehnen   
+\- alternativ 21 Festzelt-Bänke 
