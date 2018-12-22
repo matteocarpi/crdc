@@ -49,8 +49,16 @@ a.cc-button {
   color: #49927C !important; }
 
 html, body {
-  margin: 0;
+  margin: 0; }
+
+html {
   height: 100%; }
+
+body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  justify-content: center; }
 
 body.default-background {
   background: linear-gradient(rgba(73, 146, 124, 0.7), rgba(73, 146, 124, 0.7)), url("/crdc/assets/images/Backround-default.jpg");
@@ -78,10 +86,14 @@ body.default-background {
   text-transform: uppercase;
   white-space: nowrap; }
 
+div.footer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end; }
+
 a.footer {
-  position: absolute;
-  right: 17%;
-  bottom: 0;
+  grid-row-start: 2;
+  grid-row-end: 3;
   margin-bottom: 0.5rem;
   font-size: 10px; }
 
@@ -206,7 +218,8 @@ body.home {
   grid-template-columns: 50% 50%;
   align-items: center;
   justify-items: center;
-  width: 100%; }
+  width: 100%;
+  margin-top: -2rem; }
 
 .expectations {
   text-align: right;
@@ -230,7 +243,7 @@ tr {
   margin: 0; }
 
 td > p {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 400;
   margin: 0.4rem 0; }
 
@@ -280,7 +293,7 @@ a.button-show:hover {
   color: #02509E; }
 
 .img-show {
-  margin: 0 2em;
+  margin: 0 2em 8em 0;
   width: 70%;
   padding-top: 52.5%; }
 
