@@ -300,19 +300,14 @@ a.button-show:hover {
   flex-direction: column;
   justify-content: flex-start; }
 
-img.circus {
-  width: 400px;
-  margin-top: 2em;
-  border-color: #FAF076;
-  border: solid 3px; }
-
 .crdc-map {
-  background: url(/crdc/assets/images/CRDC_MAP.png);
-  width: 80%;
-  padding-top: 80%;
+  background: url(/crdc/assets/images/image-drum-circle-set.png);
+  width: 90%;
+  padding-top: 50.625%;
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  border: solid #FAF076; }
 
 .contact-wrapper {
   display: grid;
