@@ -5,6 +5,7 @@
   align-items: center;
   justify-items: center;
   width: 100%;
+  margin-top: -2rem;
 }
 .expectations {
   text-align: right;
@@ -29,7 +30,7 @@ tr {
   margin: 0;
 }
 td > p {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 400;
   margin: 0.4rem 0;
 }
@@ -83,7 +84,7 @@ a.button-show:hover {
   color: $blue;
 }
 .img-show{
-  margin: 0 2em;
+  margin: 0 2em 8em 0;
   width: 70%;
   padding-top: 52.5%;
 }
