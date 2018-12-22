@@ -101,9 +101,8 @@ a.footer:hover {
   width: 4rem; }
 
 .header-wrap {
-  display: flex;
-  justify-content: center;
-  align-items: baseline; }
+  display: grid;
+  grid-template-columns: 10% 80% 10%; }
 
 .logo {
   width: 10rem;
