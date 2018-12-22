@@ -1,6 +1,5 @@
 .show-wrapper {
   display: grid;
-  margin-top: 4rem;
   grid-template-columns: 50% 50%;
   align-items: center;
   justify-items: center;
@@ -19,7 +18,13 @@
   padding-left: 0.5em;
 }
 .table-wrap {
+  display: flex;
+  flex-direction: row;
   padding: 0 2em;
+}
+.offer {
+  margin-top: 3rem;
+  margin-left: 2rem;
 }
 td {
   vertical-align: baseline;
