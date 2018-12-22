@@ -177,11 +177,14 @@ body.home {
 
 .languages {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 2rem; }
 
 .languages > .cta {
   margin: 0 2rem; }
+
+.cta.de {
+  margin-top: 2rem; }
 
 .logo-home {
   max-width: 20rem; }
@@ -601,9 +604,6 @@ iframe.video-show {
 
   .contact-wrapper {
     grid-template-columns: 90%; }
-
-  * {
-    margin: 0 auto; }
 
   .contacts {
     margin-top: 2rem; } }
