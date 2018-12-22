@@ -7,17 +7,14 @@ layout: default-de
         <tbody>
           <tr>
             <td class="expectations"><h1> {{ page.expectation_title_en }} </h1></td>
-            <td class="statement"><h1>{{ page.offer_title_en }}</h1></td>
           </tr>
 
           <tr>
             <td class="expectations"><p class="statement">{{ page.expectation_1_en | markdownify }}</p></td>
-            <td class="statement"><p>{{ page.offer_1_en | markdownify }}</p></td>
           </tr>
 
           <tr>
             <td class="expectations"><p class="statement">{{ page.expectation_2_en | markdownify }}</p></td>
-            <td class="statement"><p >{{ page.offer_2_en | markdownify }}</p></td>
           </tr>
 
           <tr>
@@ -27,9 +24,23 @@ layout: default-de
         </tbody>
       </table>
 
-      <table>
+      <table class="offer">
         <tbody>
+          <tr>
+            <td class="statement"><h1>{{ page.offer_title_en }}</h1></td>
+          </tr>
 
+          <tr>
+            <td class="statement"><p>{{ page.offer_1_en | markdownify }}</p></td>
+          </tr>
+
+          <tr>
+            <td class="statement"><p >{{ page.offer_2_en | markdownify }}</p></td>
+          </tr>
+
+          <tr>
+            <td class="statement"><p >{{ page.offer_3_en | markdownify }}</p></td>
+          </tr>
         </tbody>
       </table>
     </div>
