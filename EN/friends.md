@@ -20,7 +20,10 @@ instruments:
 grafic_design_and_printing:
 - template: person
   website: www.druckerei-breiden.de
-fotos/videos/website: []
+fotos/videos/website:
+- template: person
+  person-name: Chris Mersmann; Lukas Papierak
+  website: www.lukas-papierak.de/
 outer_circle_people: []
 
 ---
