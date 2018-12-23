@@ -35,6 +35,7 @@ outer_circle:
     person-name: Nevermiss Productions
     website: www.nevermiss.de
   - template: person
+    person-name: Matteo Carpi
 construction_and_metalwork:
 - template: person
   website: " http://www.daniel-weissroth.de"
