@@ -2,4 +2,13 @@
 label: InnerCircle
 hide_body: false
 is_partial: false
-fields: []
+fields:
+- type: text
+  name: inner_circle
+  label: Inner Circle
+  default: Inner Circle
+- type: blocks
+  label: Construction and metalwork
+  name: construction_and_metalwork
+  template_types:
+  - person
