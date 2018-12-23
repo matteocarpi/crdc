@@ -3,7 +3,6 @@ layout: friends
 title: Friends
 date: 2018-11-29 19:07:15 +0000
 permalink: "/en/friends"
-inner_circle:
 - template: friends
   outer_circle_people:
   - template: person
@@ -18,10 +17,6 @@ inner_circle:
   - template: person
     person-name: Village Music Circles
     website: www.villagemusiccircles.com
-network:
-- template: person
-  person-name: arthaus.berlin
-outer_circle:
 - template: friends-2
   inner_circle: Inner Circle
   construction_and_metalwork:
