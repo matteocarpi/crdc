@@ -4,23 +4,32 @@ layout: default
 <div class="friends-wrap">
   <div class="inner_circle">
     <h1>Inner Circle</h1>
-      {% for inner_circle in page.inner_circle %}
-    <div class="friend">
-      <img src="{{ inner_circle.logo | relative_url }}" alt=""/>
-      <h2>{{ inner_circle.person-name }}</h3>
-      <p>{{ inner_circle.person-role}}</p>
-    </div>
-    {%endfor%}
+
+    <h2>Construction and Metal Work</h2>
+      <ul>
+        <li> <a href="http://www.daniel-weissroth.de/">www.daniel-weissroth.de</a></li>
+      </ul>
+
+    <h2>Instruments</h2>
+      <ul>
+        <li> <a target="_blank" href="www.gewamusic.com">www.gewamusic.com</a> </li>
+        <li> <a href="www.remo.com">www.remo.com</a> </li>
+      </ul>
+
+    <!-- <h2>Beratung</h2>
+      <ul>
+        <li>Angharad Matthews</li>
+      </ul> -->
+
+    <h2>Graphic Design and Printing</h2>
+      <ul>
+        <li> <a href="www.druckerei-breiden.de">www.druckerei-breiden.de</a> </li>
+      </ul>
+
+    
   </div>
 
   <div class="network">
     <h1>Network</h1>
-    {% for network in page.network %}
-    <div class="network-person">
-      <img src="{{ network.logo }}" alt=""/>
-      <h2>{{ network.person-name }}</h2>
-      <p>{{ network.person-role}}</p>
-    </div>
-    {%endfor%}
   </div>
 </div>
