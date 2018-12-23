@@ -33,6 +33,7 @@ outer_circle_people:
 - template: person
   website: www.memo-media.de
 - template: person
+  website: www.gewa-drumcircles.com
 - template: person
 
 ---
