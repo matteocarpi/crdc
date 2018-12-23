@@ -26,6 +26,12 @@ inner_circle:
   - template: person
     person-name: Druckerei Breiden
     website: www.druckerei-breiden.de
+- template: inner-circle
+  area_of_work: Fotos/Videos/Website
+  inner_circle_people:
+  - template: person
+    person-name: Chris Mersmann, Lukas Papierak
+    website: www.lukas-papierak.de
 network:
 - template: person
   person-name: arthaus.berlin
