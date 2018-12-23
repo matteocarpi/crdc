@@ -27,6 +27,12 @@ outer_circle:
   - template: person
     person-name: Druckerei Breiden
     website: www.druckerei-breiden.de
+  fotos/videos/website:
+  - template: person
+    person-name: Chris Mersmann, Lukas Papierak
+    website: www.lukas-papierak.de
+  - template: person
+  - template: person
 construction_and_metalwork:
 - template: person
   website: " http://www.daniel-weissroth.de"
