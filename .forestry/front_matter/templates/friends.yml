@@ -1,13 +1,17 @@
 ---
-label: Outer Circle
+label: Friends
 hide_body: false
-is_partial: true
+is_partial: false
 fields:
-- type: text
-  name: outer_circle
-  label: Outer Circle
 - type: blocks
   template_types:
-  - person
-  label: Outer Circle People
-  name: outer_circle_people
+  - friends-2
+  label: Inner Circle
+  name: outer_circle
+- type: blocks
+  name: inner_circle
+  label: Outer Circle
+  template_types:
+  - friends
+pages:
+- EN/friends.md
