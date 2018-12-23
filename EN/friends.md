@@ -10,6 +10,13 @@ inner_circle:
   - template: person
     person-name: Daniel Weissroth
     website: www-daniel-weissroth.de
+- template: inner-circle
+  area_of_work: Instruments
+  inner_circle_people:
+  - template: person
+    person-name: Gewa Music
+    website: www.gewamusic.com
+  - template: person
 network:
 - template: person
   person-name: arthaus.berlin
