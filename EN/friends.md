@@ -20,6 +20,12 @@ inner_circle:
     person-name: Remo
     website: www.remo.com
     logo: "/crdc/uploads/Remo-Logo.png"
+- template: inner-circle
+  area_of_work: Grafic Design and Prints
+  inner_circle_people:
+  - template: person
+    person-name: Druckerei Breiden
+    website: www.druckerei-breiden.de
 network:
 - template: person
   person-name: arthaus.berlin
