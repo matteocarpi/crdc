@@ -19,6 +19,7 @@ inner_circle:
   - template: person
     person-name: Remo
     website: www.remo.com
+    logo: "/crdc/uploads/Remo-Logo.png"
 network:
 - template: person
   person-name: arthaus.berlin
