@@ -213,8 +213,7 @@ body.home {
   grid-template-columns: 50% 50%;
   align-items: center;
   justify-items: center;
-  width: 100%;
-  margin-top: -2rem; }
+  width: 100%; }
 
 .expectations {
   text-align: right;
