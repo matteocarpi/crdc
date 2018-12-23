@@ -28,6 +28,9 @@ outer_circle:
   - template: person
     person-name: Theater Pikante
     website: www.theater-pikante.de
+  - template: person
+    person-name: Memo Media
+    website: www.memomedia.com
 construction_and_metalwork:
 - template: person
   website: " http://www.daniel-weissroth.de"
