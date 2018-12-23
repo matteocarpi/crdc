@@ -13,6 +13,8 @@ inner_circle:
     person-name: Memo Media
     website: www.memomedia.de
   - template: person
+    person-name: Gewa Drum Circles
+    website: www.gewadrumcircles.com
   - template: person
 network:
 - template: person
