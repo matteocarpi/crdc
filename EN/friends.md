@@ -3,18 +3,13 @@ layout: friends
 title: Friends
 date: 2018-11-29 19:07:15 +0000
 permalink: "/en/friends"
-inner_circle:
-- template: person
-  person-name: Matteo Carpi
-  person-role: Web Designer
-- template: person
-  person-name: Angharad Matthews
-  person-role: Costume Design
-- template: person
-  person-name: ''
-  logo: "/uploads/Remo-Logo.png"
+inner_circle: Inner Circle
 network:
 - template: person
   person-name: arthaus.berlin
+outer_circle: Outer Circle
+construction_and_metalwork:
+- template: person
+  website: " http://www.daniel-weissroth.de"
 
 ---
