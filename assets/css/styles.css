@@ -101,8 +101,8 @@ a.footer:hover {
   width: 4rem; }
 
 .header-wrap {
-  display: grid;
-  grid-template-columns: 10% 80% 10%; }
+  display: flex;
+  justify-content: space-between; }
 
 .logo {
   width: 10rem;
@@ -125,9 +125,7 @@ a.footer:hover {
   align-self: center; }
 
 .navigation-wrap {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  display: block; }
 
 .navigation {
   display: flex;
@@ -136,7 +134,8 @@ a.footer:hover {
   align-items: center;
   justify-self: center;
   align-self: center;
-  width: max-content; }
+  width: max-content;
+  flex-shrink: 0; }
 
 .menu-item {
   text-align: center;
@@ -553,6 +552,11 @@ iframe.video-show {
   max-width: 300px; }
 
 @media screen and (max-width: 768px) {
+  .header-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
   .cta.contact {
     justify-self: start;
     align-self: start; }
@@ -622,11 +626,6 @@ iframe.video-show {
   .contacts {
     margin-top: 2rem; } }
 @media screen and (max-width: 414px) {
-  .header-wrap {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-
   .logo {
     margin: 1rem auto; }
 
