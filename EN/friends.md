@@ -31,6 +31,10 @@ outer_circle:
   - template: person
     person-name: Memo Media
     website: www.memomedia.com
+  - template: person
+    person-name: Gewa Drum Circles
+    website: www.gewa-drumcircles.com
+  - template: person
 construction_and_metalwork:
 - template: person
   website: " http://www.daniel-weissroth.de"
