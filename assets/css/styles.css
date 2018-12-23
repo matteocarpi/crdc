@@ -302,7 +302,11 @@ a.button-show:hover {
   margin: 0 auto; }
 
 .carousel-control-next-icon {
-  color: #FAF076; }
+  color: #FAF076;
+  margin-left: -20rem; }
+
+.carousel-control-prev-icon {
+  margin-right: -20rem; }
 
 .facts {
   position: relative;
