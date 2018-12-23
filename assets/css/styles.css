@@ -309,6 +309,7 @@ a.button-show:hover {
   margin-right: -20rem; }
 
 .facts {
+  margin-top: -20rem;
   position: relative;
   display: grid;
   align-items: center;
