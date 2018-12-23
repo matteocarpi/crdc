@@ -14,6 +14,9 @@ construction_and_metalwork:
 instruments:
 - template: person
   website: www.gewamusic.com
+- template: person
+  website: www.remo.com
+  logo: "/crdc/uploads/Remo-Logo.png"
 grafic_design_and_printing: []
 fotos/videos/website: []
 outer_circle_people: []
