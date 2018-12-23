@@ -17,6 +17,8 @@ inner_circle:
     person-name: Gewa Music
     website: www.gewamusic.com
   - template: person
+    person-name: Remo
+    website: www.remo.com
 network:
 - template: person
   person-name: arthaus.berlin
