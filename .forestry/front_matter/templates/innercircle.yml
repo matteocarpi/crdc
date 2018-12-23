@@ -1,5 +1,5 @@
 ---
-label: InnerCircle
+label: Friends-1
 hide_body: false
 is_partial: false
 fields:
@@ -12,3 +12,26 @@ fields:
   name: construction_and_metalwork
   template_types:
   - person
+- type: blocks
+  template_types:
+  - person
+  label: Instruments
+  name: instruments
+- type: blocks
+  label: Grafic Design and Printing
+  name: grafic_design_and_printing
+  template_types:
+  - person
+- type: blocks
+  label: Fotos/Videos/Website
+  name: fotos/videos/website
+  template_types:
+  - person
+- type: text
+  name: outer_circle
+  label: Outer Circle
+- type: blocks
+  template_types:
+  - person
+  label: Outer Circle People
+  name: outer_circle_people
