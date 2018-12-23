@@ -5,11 +5,11 @@ is_partial: false
 fields:
 - type: blocks
   template_types:
-  - outer-circle
+  - inner-circle
   label: Inner Circle
-  name: outer_circle
-- type: blocks
   name: inner_circle
+- type: blocks
+  name: outer_circle
   label: Outer Circle
   template_types:
   - outer-circle
