@@ -35,6 +35,8 @@ outer_circle:
     person-name: Gewa Drum Circles
     website: www.gewa-drumcircles.com
   - template: person
+    person-name: Village Music Circles
+    website: www.villagemusiccircles.com
 construction_and_metalwork:
 - template: person
   website: " http://www.daniel-weissroth.de"
