@@ -13,3 +13,5 @@ fields:
   label: Network
   template_types:
   - person
+pages:
+- EN/friends.md
