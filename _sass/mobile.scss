@@ -1,6 +1,11 @@
 // Tablet
 @media screen and (max-width: 768px) {
   //Universal
+  .header-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
   .cta.contact {
     justify-self: start;
     align-self: start;
@@ -81,11 +86,6 @@
 }
 @media screen and (max-width: 414px) {
   //Header {
-  .header-wrap {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
   .logo {
     margin: 1rem auto;
   }
