@@ -1,5 +1,5 @@
 ---
-label: Friends
+label: Friends-2
 hide_body: false
 is_partial: false
 fields:
@@ -35,5 +35,3 @@ fields:
   - person
   label: Outer Circle People
   name: outer_circle_people
-pages:
-- EN/friends.md
