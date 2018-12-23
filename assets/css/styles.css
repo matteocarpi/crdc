@@ -335,7 +335,8 @@ a.button-show:hover {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: center;
-  height: 80%; }
+  height: 80%;
+  margin-top: -10rem; }
 
 .contacts {
   text-align: center; }
