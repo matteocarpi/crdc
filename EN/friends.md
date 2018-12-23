@@ -32,6 +32,9 @@ inner_circle:
   - template: person
     person-name: Chris Mersmann, Lukas Papierak
     website: www.lukas-papierak.de
+  - template: person
+    person-name: Nevermiss Productions
+    website: www.nevermiss.de
 network:
 - template: person
   person-name: arthaus.berlin
