@@ -32,6 +32,8 @@ outer_circle:
     person-name: Chris Mersmann, Lukas Papierak
     website: www.lukas-papierak.de
   - template: person
+    person-name: Nevermiss Productions
+    website: www.nevermiss.de
   - template: person
 construction_and_metalwork:
 - template: person
