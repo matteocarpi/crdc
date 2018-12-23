@@ -295,7 +295,8 @@ a.button-show:hover {
 .img-show {
   margin: 0 2em 8em 0;
   width: 70%;
-  padding-top: 52.5%; }
+  padding-top: 46%;
+  border: solid 3px; }
 
 .carousel-inner {
   max-width: 45%;
