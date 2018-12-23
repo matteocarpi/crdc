@@ -2,10 +2,11 @@
 label: Outer Circle
 hide_body: false
 is_partial: true
+display_field: area_of_work
 fields:
 - type: text
-  name: outer_circle
-  label: Outer Circle
+  name: area_of_work
+  label: Area Of Work
 - type: blocks
   template_types:
   - person

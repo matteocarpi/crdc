@@ -1,0 +1,17 @@
+---
+label: Friends
+hide_body: false
+is_partial: false
+fields:
+- type: blocks
+  template_types:
+  - inner-circle
+  label: Inner Circle
+  name: inner_circle
+- type: blocks
+  name: outer_circle
+  label: Outer Circle
+  template_types:
+  - outer-circle
+pages:
+- EN/friends.md

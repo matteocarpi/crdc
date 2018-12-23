@@ -1,29 +1,14 @@
 ---
-label: Inner Circle
+label: Area Of Work
 hide_body: false
 is_partial: true
+display_field: area_of_work
 fields:
 - type: text
-  name: inner_circle
-  label: Inner Circle
-  default: Inner Circle
+  name: area_of_work
+  label: Area of Work
 - type: blocks
-  label: Construction and metalwork
-  name: construction_and_metalwork
-  template_types:
-  - person
-- type: blocks
-  template_types:
-  - person
-  label: Instruments
-  name: instruments
-- type: blocks
-  label: Grafic Design and Printing
-  name: grafic_design_and_printing
-  template_types:
-  - person
-- type: blocks
-  label: Fotos/Videos/Website
-  name: fotos/videos/website
+  label: Inner Circle People
+  name: inner_circle_people
   template_types:
   - person

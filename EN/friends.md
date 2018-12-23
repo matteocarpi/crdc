@@ -3,27 +3,16 @@ layout: friends
 title: Friends
 date: 2018-11-29 19:07:15 +0000
 permalink: "/en/friends"
-- template: friends
-  outer_circle_people:
+inner_circle:
+- template: inner-circle
+  area_of_work: Construction and Metal Work
+  inner_circle_people:
   - template: person
-    person-name: Theater Pikante
-    website: www.theater-pikante.de
-  - template: person
-    person-name: Memo Media
-    website: www.memomedia.de
-  - template: person
-    person-name: Gewa Drum Circles
-    website: www.gewadrumcircles.com
-  - template: person
-    person-name: Village Music Circles
-    website: www.villagemusiccircles.com
-- template: friends-2
-  inner_circle: Inner Circle
-  construction_and_metalwork:
-  - template: person
-    website: http://www.daniel-weissroth.de
     person-name: Daniel Weissroth
-  instruments:
+    website: www-daniel-weissroth.de
+- template: inner-circle
+  area_of_work: Instruments
+  inner_circle_people:
   - template: person
     person-name: Gewa Music
     website: www.gewamusic.com
@@ -31,11 +20,15 @@ permalink: "/en/friends"
     person-name: Remo
     website: www.remo.com
     logo: "/crdc/uploads/Remo-Logo.png"
-  grafic_design_and_printing:
+- template: inner-circle
+  area_of_work: Grafic Design and Prints
+  inner_circle_people:
   - template: person
     person-name: Druckerei Breiden
     website: www.druckerei-breiden.de
-  fotos/videos/website:
+- template: inner-circle
+  area_of_work: Fotos/Videos/Website
+  inner_circle_people:
   - template: person
     person-name: Chris Mersmann, Lukas Papierak
     website: www.lukas-papierak.de
@@ -44,6 +37,24 @@ permalink: "/en/friends"
     website: www.nevermiss.de
   - template: person
     person-name: Matteo Carpi
+network:
+- template: person
+  person-name: arthaus.berlin
+outer_circle:
+- template: outer-circle
+  outer_circle_people:
+  - template: person
+    person-name: Theater Pikante
+    website: www.theater-pikante.de
+  - template: person
+    person-name: Memo Media
+    website: www.memomedia.com
+  - template: person
+    person-name: Gewa Drum Circles
+    website: www.gewa-drumcircles.com
+  - template: person
+    person-name: Village Music Circles
+    website: www.villagemusiccircles.com
 construction_and_metalwork:
 - template: person
   website: " http://www.daniel-weissroth.de"
