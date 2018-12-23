@@ -4,20 +4,12 @@ title: Friends
 date: 2018-11-29 19:07:15 +0000
 permalink: "/en/friends"
 inner_circle:
-- template: friends
-  outer_circle_people:
+- template: inner-circle
+  area_of_work: Construction and Metal Work
+  inner_circle_people:
   - template: person
-    person-name: Theater Pikante
-    website: www.theater-pikante.de
-  - template: person
-    person-name: Memo Media
-    website: www.memomedia.de
-  - template: person
-    person-name: Gewa Drum Circles
-    website: www.gewadrumcircles.com
-  - template: person
-    person-name: Village Music Circles
-    website: www.villagemusiccircles.com
+    person-name: Daniel Weissroth
+    website: www-daniel-weissroth.de
 network:
 - template: person
   person-name: arthaus.berlin
