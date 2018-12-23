@@ -15,6 +15,11 @@ outer_circle:
   - template: person
     website: http://www.daniel-weissroth.de
     person-name: Daniel Weissroth
+  instruments:
+  - template: person
+    person-name: Gewa Music
+    website: www.gewamusic.com
+  - template: person
 construction_and_metalwork:
 - template: person
   website: " http://www.daniel-weissroth.de"
