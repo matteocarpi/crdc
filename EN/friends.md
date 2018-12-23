@@ -16,6 +16,8 @@ inner_circle:
     person-name: Gewa Drum Circles
     website: www.gewadrumcircles.com
   - template: person
+    person-name: Village Music Circles
+    website: www.villagemusiccircles.com
 network:
 - template: person
   person-name: arthaus.berlin
