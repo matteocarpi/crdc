@@ -10,8 +10,8 @@ fields:
   config:
     required: false
 - type: text
-  name: person-role
-  label: role
+  name: website
+  label: website
   config:
     required: false
 - type: file
