@@ -1,7 +1,7 @@
 ---
-label: Friends-2
+label: Inner Circle
 hide_body: false
-is_partial: false
+is_partial: true
 fields:
 - type: text
   name: inner_circle
@@ -27,11 +27,3 @@ fields:
   name: fotos/videos/website
   template_types:
   - person
-- type: text
-  name: outer_circle
-  label: Outer Circle
-- type: blocks
-  template_types:
-  - person
-  label: Outer Circle People
-  name: outer_circle_people
