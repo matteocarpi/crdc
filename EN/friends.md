@@ -35,6 +35,8 @@ inner_circle:
   - template: person
     person-name: Nevermiss Productions
     website: www.nevermiss.de
+  - template: person
+    person-name: Matteo Carpi
 network:
 - template: person
   person-name: arthaus.berlin
