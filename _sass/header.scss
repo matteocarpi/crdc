@@ -1,6 +1,8 @@
 .header-wrap {
-  display: grid;
-  grid-template-columns: 10% 80% 10%;
+  // display: grid;
+  // grid-template-columns: 10% 80% 10%;
+  display: flex;
+  justify-content: space-between;
 }
 .logo {
   width: 10rem;
@@ -23,9 +25,7 @@
   align-self: center;
 }
 .navigation-wrap {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
 }
 .navigation {
   display: flex;
@@ -35,6 +35,7 @@
   justify-self: center;
   align-self: center;
   width: max-content;
+  flex-shrink: 0;
 }
 
 .menu-item {
