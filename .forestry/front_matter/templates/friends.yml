@@ -11,5 +11,3 @@ fields:
   - person
   label: Outer Circle People
   name: outer_circle_people
-pages:
-- EN/friends.md
