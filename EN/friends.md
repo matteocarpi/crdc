@@ -20,6 +20,9 @@ outer_circle:
     person-name: Gewa Music
     website: www.gewamusic.com
   - template: person
+    person-name: Remo
+    website: www.remo.com
+    logo: "/crdc/uploads/Remo-Logo.png"
 construction_and_metalwork:
 - template: person
   website: " http://www.daniel-weissroth.de"
