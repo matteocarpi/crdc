@@ -27,6 +27,8 @@ fotos/videos/website:
 - template: person
   person-name: nevermiss-production
   website: www.nevermiss.de
+- template: person
+  person-name: Matteo Carpi
 outer_circle_people:
 - template: person
   website: http://www.theater-pikante.de/
@@ -35,5 +37,6 @@ outer_circle_people:
 - template: person
   website: www.gewa-drumcircles.com
 - template: person
+  website: www.villagemusiccircles.com
 
 ---
