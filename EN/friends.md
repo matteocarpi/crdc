@@ -3,11 +3,18 @@ layout: friends
 title: Friends
 date: 2018-11-29 19:07:15 +0000
 permalink: "/en/friends"
-inner_circle: Inner Circle
+inner_circle:
+- template: friends
 network:
 - template: person
   person-name: arthaus.berlin
-outer_circle: Outer Circle
+outer_circle:
+- template: friends-2
+  inner_circle: Inner Circle
+  construction_and_metalwork:
+  - template: person
+    website: http://www.daniel-weissroth.de
+    person-name: Daniel Weissroth
 construction_and_metalwork:
 - template: person
   website: " http://www.daniel-weissroth.de"
