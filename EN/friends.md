@@ -10,6 +10,8 @@ inner_circle:
     person-name: Theater Pikante
     website: www.theater-pikante.de
   - template: person
+    person-name: Memo Media
+    website: www.memomedia.de
   - template: person
   - template: person
 network:
