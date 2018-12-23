@@ -23,33 +23,11 @@ network:
 - template: person
   person-name: arthaus.berlin
 outer_circle:
-- template: friends-2
-  inner_circle: Inner Circle
-  construction_and_metalwork:
+- template: outer-circle
+  outer_circle_people:
   - template: person
-    website: http://www.daniel-weissroth.de
-    person-name: Daniel Weissroth
-  instruments:
-  - template: person
-    person-name: Gewa Music
-    website: www.gewamusic.com
-  - template: person
-    person-name: Remo
-    website: www.remo.com
-    logo: "/crdc/uploads/Remo-Logo.png"
-  grafic_design_and_printing:
-  - template: person
-    person-name: Druckerei Breiden
-    website: www.druckerei-breiden.de
-  fotos/videos/website:
-  - template: person
-    person-name: Chris Mersmann, Lukas Papierak
-    website: www.lukas-papierak.de
-  - template: person
-    person-name: Nevermiss Productions
-    website: www.nevermiss.de
-  - template: person
-    person-name: Matteo Carpi
+    person-name: Theater Pikante
+    website: www.theater-pikante.de
 construction_and_metalwork:
 - template: person
   website: " http://www.daniel-weissroth.de"
