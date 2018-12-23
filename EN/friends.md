@@ -5,6 +5,13 @@ date: 2018-11-29 19:07:15 +0000
 permalink: "/en/friends"
 inner_circle:
 - template: friends
+  outer_circle_people:
+  - template: person
+    person-name: Theater Pikante
+    website: www.theater-pikante.de
+  - template: person
+  - template: person
+  - template: person
 network:
 - template: person
   person-name: arthaus.berlin
