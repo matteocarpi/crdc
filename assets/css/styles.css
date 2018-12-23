@@ -486,7 +486,8 @@ iframe.video-show {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   align-items: start;
-  justify-items: center; }
+  justify-items: center;
+  margin-top: -4rem; }
   .team img {
     border: solid 3px; }
 
