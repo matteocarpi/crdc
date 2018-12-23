@@ -17,7 +17,9 @@ instruments:
 - template: person
   website: www.remo.com
   logo: "/crdc/uploads/Remo-Logo.png"
-grafic_design_and_printing: []
+grafic_design_and_printing:
+- template: person
+  website: www.druckerei-breiden.de
 fotos/videos/website: []
 outer_circle_people: []
 
