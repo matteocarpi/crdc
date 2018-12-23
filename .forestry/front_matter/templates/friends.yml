@@ -5,13 +5,13 @@ is_partial: false
 fields:
 - type: blocks
   template_types:
-  - friends-2
+  - outer-circle
   label: Inner Circle
   name: outer_circle
 - type: blocks
   name: inner_circle
   label: Outer Circle
   template_types:
-  - friends
+  - outer-circle
 pages:
 - EN/friends.md
