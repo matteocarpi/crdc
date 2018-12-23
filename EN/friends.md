@@ -31,6 +31,7 @@ outer_circle_people:
 - template: person
   website: http://www.theater-pikante.de/
 - template: person
+  website: www.memo-media.de
 - template: person
 - template: person
 
