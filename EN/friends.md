@@ -23,6 +23,10 @@ outer_circle:
     person-name: Remo
     website: www.remo.com
     logo: "/crdc/uploads/Remo-Logo.png"
+  grafic_design_and_printing:
+  - template: person
+    person-name: Druckerei Breiden
+    website: www.druckerei-breiden.de
 construction_and_metalwork:
 - template: person
   website: " http://www.daniel-weissroth.de"
