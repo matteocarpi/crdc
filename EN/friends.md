@@ -27,6 +27,11 @@ fotos/videos/website:
 - template: person
   person-name: nevermiss-production
   website: www.nevermiss.de
-outer_circle_people: []
+outer_circle_people:
+- template: person
+  website: http://www.theater-pikante.de/
+- template: person
+- template: person
+- template: person
 
 ---
