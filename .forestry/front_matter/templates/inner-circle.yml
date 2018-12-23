@@ -1,5 +1,5 @@
 ---
-label: Inner Circle tyacci tua
+label: Inner Circle
 hide_body: false
 is_partial: true
 fields:
@@ -7,7 +7,7 @@ fields:
   name: area_of_work
   label: Area of Work
 - type: blocks
-  label: person
-  name: person
+  label: Inner Circle People
+  name: inner_circle_people
   template_types:
   - person
