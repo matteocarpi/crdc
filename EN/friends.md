@@ -11,5 +11,11 @@ outer_circle: Outer Circle
 construction_and_metalwork:
 - template: person
   website: " http://www.daniel-weissroth.de"
+instruments:
+- template: person
+  website: www.gewamusic.com
+grafic_design_and_printing: []
+fotos/videos/website: []
+outer_circle_people: []
 
 ---
