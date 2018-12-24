@@ -82,9 +82,21 @@
     margin-bottom: 8rem;
     margin-top: 2rem;
   }
+  //Friends
+  .friends-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .inner_circle {
+    border-right: none;
+    border-bottom: solid;
+  }
   //Contact
   .contact-wrapper {
-    grid-template-columns: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 15%;
   }
   .contacts {
     margin-top: 2rem;
