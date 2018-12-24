@@ -43,6 +43,9 @@ a {
     color: #FAF076 !important;
     text-decoration: none !important; }
 
+li {
+  list-style-position: inside; }
+
 strong {
   font-weight: bold; }
 
@@ -545,10 +548,15 @@ iframe.video-show {
   margin-top: 3rem; }
   .network h1 {
     border: solid 2px;
-    margin-bottom: 4rem; }
+    margin-bottom: 4rem;
+    padding: 0 2rem; }
 
 li.outer-friend {
   margin-bottom: 2rem; }
+
+img.remo {
+  width: 100px;
+  margin-top: 1rem; }
 
 .impressum-wrap {
   display: grid;
