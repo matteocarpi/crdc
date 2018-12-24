@@ -435,7 +435,8 @@ iframe.video-show {
   padding: 2rem 4rem;
   background-color: #49927C;
   border-radius: 1rem;
-  display: grid; }
+  display: grid;
+  object-fit: contain; }
 
 .story-content-wrap {
   width: 100%;
@@ -598,9 +599,12 @@ img.remo {
     margin: 2rem auto; }
 
   .show-navigation {
-    grid-template-columns: 1fr;
-    width: 30%;
-    grid-row-gap: 1em; }
+    display: flex;
+    flex-direction: column; }
+
+  .button-show {
+    margin: 1rem 0;
+    width: 10rem; }
 
   .story-content-wrap {
     display: flex;
