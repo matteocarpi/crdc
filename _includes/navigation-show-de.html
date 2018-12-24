@@ -6,7 +6,7 @@
 
     {% for item in site.data.navigation-show-de %}
       {% if page.url == item.link %}
-        <a class="active-button-show" href="{{ item.link | relative_url }}">{{ item.name }}</a>
+        <a class="button-show active-button-show" href="{{ item.link | relative_url }}">{{ item.name }}</a>
 
         {% else %}
 
