@@ -491,8 +491,7 @@ iframe.video-show {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   align-items: start;
-  justify-items: center;
-  margin-top: -4rem; }
+  justify-items: center; }
   .team img {
     border: solid 3px; }
 
@@ -649,8 +648,19 @@ img.remo {
     margin-bottom: 8rem;
     margin-top: 2rem; }
 
+  .friends-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
+  .inner_circle {
+    border-right: none;
+    border-bottom: solid; }
+
   .contact-wrapper {
-    grid-template-columns: 90%; }
+    display: flex;
+    flex-direction: column;
+    margin: 15%; }
 
   .contacts {
     margin-top: 2rem; } }
