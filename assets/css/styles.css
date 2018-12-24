@@ -512,8 +512,7 @@ iframe.video-show {
   height: 12rem; }
 
 .friends-wrap {
-  width: 70%;
-  height: 70%;
+  width: 100%;
   margin: auto;
   display: grid;
   grid-template-columns: 50% 50%;
