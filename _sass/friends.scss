@@ -5,6 +5,13 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  li {
+    list-style: none;
+    a {
+      text-decoration: underline;;
+    }
+  }
+
 }
 .friend, .network-person {
   margin-top: 3rem;

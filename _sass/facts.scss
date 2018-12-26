@@ -1,7 +1,6 @@
 .facts {
   display: flex;
   justify-content: space-around;
-  margin-top: -20rem;
   position: relative;
   margin-top: 1rem;
   align-items: center;
@@ -11,7 +10,6 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.crdc-map {
+img.crdc-map {
   border: solid 1px;
-  width: 40rem;
 }

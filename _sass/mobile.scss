@@ -2,9 +2,8 @@
 @media screen and (max-width: 768px) {
   //Universal
   .header-wrap {
-    display: flex;
     flex-direction: column;
-    align-items: center;
+    margin: 0 auto;
 }
   .cta.contact {
     justify-self: start;
@@ -20,12 +19,23 @@
     flex-direction: column;
     align-items: center;
   }
+  .person {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .table-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  td.expectations {
+      text-align: left;
+  }
   .img-show-wrap {
     display: flex;
     flex-direction: column;
   }
   .img-show {
-    max-width: 30rem;
+    width: 20rem;
     margin: 2rem auto;
   }
   .show-navigation {
@@ -60,12 +70,11 @@
     justify-content: center;
   }
   .crdc-map {
-    grid-row-start: 1;
-    margin-top: 0;
+    width: 20rem;
   }
   //Team
   .team {
-    grid-template-columns: 90%;
+    flex-direction: column;
     justify-content: center;
     p {
       width: 70%;
@@ -133,14 +142,7 @@
   }
   //Facts
   .facts {
-    margin: 0 auto;
-  }
-  img.circus {
-    width: 300px
-  }
-  .crdc-map {
-  width: 100%;
-  padding-top: 100%;
+    margin: 0 2rem;
   }
   //Friends
   .friends-wrap {
