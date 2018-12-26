@@ -45,9 +45,10 @@ layout: default
       </table>
     </div>
 
-
-  <div class="img-show" style="background: url({{ page.image | relative_url }}); background-size: contain; background-repeat: no-repeat;">
+  <div class="img-show-wrap">
+    <img class="img-show" src="{{ page.image | relative_url }}" alt="">
   </div>
+
 </div>
 
 

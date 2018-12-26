@@ -2,32 +2,39 @@
 layout: default-de
 ---
 
-  <div class="team">
-    <div class="berta person">
-      <img src={{ "/assets/images/avatar-berta.png" | relative_url }} alt="">
-      <h2>Berta Del Ben</h2>
-      <h4>Italy</h4>
-      <h3>Actress and Theatre-Maker</h3>
-      <p>{{ page.berta }}</p>
-    </div>
+<div class="team">
 
-    <div class="philipp person">
-      <img src={{ "/assets/images/avatar-philipp.png" | relative_url }} alt="">
-      <h2>Philipp Schaefer</h2>
-      <h4>Germany</h4>
-      <h3>Musikclown</h3>
-      <p>{{ page.philipp }}</p>
+  <div class="berta person">
+    <img src={{ "/assets/images/avatar-berta.png" | relative_url }} alt="">
+    <h2>Roberta Del Ben</h2>
+    <h4>Italy</h4>
+    <h3>Schauspielerin und Theaterschaffende</h3>
+    <p>{{ page.berta }}</p>
+    <div>
+      <img class="action-figure berta" src="../../assets/images/berta-in-action.png" alt="">
     </div>
-
-    <div class="florian person">
-      <img src={{ "/assets/images/avatar-florian.png" | relative_url }} alt="">
-      <h2>Florian Josef Blank</h2>
-      <h4>Germany</h4>
-      <h3>Multi-Instrumentalist</h3>
-      <p>{{ page.florian }}</p>
-    </div>
-
-    <img class="action-figure berta" src="../..//assets/images/berta-in-action.png" alt="">
-    <img class="action-figure philipp" src="../../assets/images/philipp-in-action.png" alt="">
-    <img class="action-figure flo" src="../../assets/images/florian-in-action.png" alt="">
   </div>
+
+  <div class="philipp person">
+    <img src={{ "/assets/images/avatar-philipp.png" | relative_url }} alt="">
+    <h2>Philipp Schaefer</h2>
+    <h4>Germany</h4>
+    <h3>Musikclown</h3>
+    <p>{{ page.philipp }}</p>
+    <div>
+      <img class="action-figure philipp" src="../../assets/images/philipp-in-action.png" alt="">
+    </div>
+  </div>
+
+  <div class="florian person">
+    <img src={{ "/assets/images/avatar-florian.png" | relative_url }} alt="">
+    <h2>Florian Josef Blank</h2>
+    <h4>Germany</h4>
+    <h3>Multi-Instrumentalist</h3>
+    <p>{{ page.florian }}</p>
+    <div>
+      <img class="action-figure flo" src="../../assets/images/florian-in-action.png" alt="">
+    </div>
+  </div>
+
+</div>

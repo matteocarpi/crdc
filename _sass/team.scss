@@ -1,9 +1,7 @@
 .team {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
+  display: flex;
   align-items: start;
-  justify-items: center;
+  justify-content: center;
   img{
       border: solid 3px;
   }
@@ -12,7 +10,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  width: 30rem;
+  justify-content: space-between;
   h2, h3, h4, {
     padding: 0 2rem;
     margin: 0.4rem;

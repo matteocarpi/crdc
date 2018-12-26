@@ -18,21 +18,22 @@
   .show-wrapper {
     display: block;
     flex-direction: column;
+    align-items: center;
+  }
+  .img-show-wrap {
+    display: flex;
+    flex-direction: column;
   }
   .img-show {
     max-width: 30rem;
     margin: 2rem auto;
   }
   .show-navigation {
-    // grid-template-columns: 1fr;
-    // width: 30%;
-    // grid-row-gap: 1em;
     display: flex;
     flex-direction: column;
   }
   .button-show {
     margin: 1rem 0;
-    width: 10rem;
   }
   //story
   .story-content-wrap {
@@ -55,7 +56,7 @@
   //Facts
   .facts {
     margin-top: 2rem;
-    grid-template-columns: 80%;
+    flex-direction: column;
     justify-content: center;
   }
   .crdc-map {
