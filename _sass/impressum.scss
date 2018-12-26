@@ -1,12 +1,12 @@
 .impressum-wrap {
-  display: grid;
-  grid-template-columns: 50% 50%;
+  display: flex;
   justify-items: center;
   align-items: center;
   height: 80%;
   margin: auto 4em;
 }
 .privacy-policy {
+  width: 40%;
   overflow: scroll;
   max-height: 40rem;
   display: flex;
@@ -14,6 +14,7 @@
   align-items: center;
 }
 .impressum {
+  width: 40%;
   text-align: center;
   max-width: 300px;
 }
