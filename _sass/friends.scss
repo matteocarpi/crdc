@@ -1,10 +1,9 @@
 .friends-wrap {
   width: 100%;
   margin: auto;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  justify-items: center;
-  align-items: start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 .friend, .network-person {
@@ -19,7 +18,7 @@
   justify-items: center;
   align-items: center;
   margin-top: 3rem;
-  width: 100%;
+  width: 50%;
   border-right: solid;
   h1 {
     width: max-content;
@@ -35,12 +34,15 @@
   }
 }
 .network {
-  margin-top: 3rem;
+  margin: 0 auto;
+
   h1 {
+    width: 15rem;
     border: solid 2px;
-    margin-bottom: 4rem;
+    margin: 3rem auto 4rem auto;
     padding: 0 2rem;
   }
+  width: 50%;
 }
 li.outer-friend {
   margin-bottom: 2rem;
