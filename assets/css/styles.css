@@ -212,11 +212,9 @@ body.home {
   transform: rotate(-14deg); }
 
 .show-wrapper {
-  display: grid;
-  grid-template-columns: 50% 50%;
+  display: flex;
   align-items: center;
-  justify-items: center;
-  width: 100%; }
+  justify-items: center; }
 
 .expectations {
   text-align: right;
@@ -273,6 +271,7 @@ td > p {
   justify-content: center; }
 
 .button-show {
+  width: 10rem;
   margin: 0 5em;
   padding: 1em 2em;
   background: #FAF076;
@@ -296,9 +295,9 @@ a.button-show:hover {
   color: #02509E; }
 
 .img-show {
-  margin: 0 2em 8em 0;
-  width: 70%;
-  padding-top: 46%;
+  margin-top: -3rem;
+  margin-right: 3rem;
+  width: 30rem;
   border: solid 3px; }
 
 .carousel-inner {
@@ -313,12 +312,12 @@ a.button-show:hover {
   margin-right: -20rem; }
 
 .facts {
+  display: flex;
+  justify-content: space-around;
   margin-top: -20rem;
   position: relative;
-  display: grid;
-  align-items: center;
-  grid-template-columns: 50% 50%;
-  justify-items: center; }
+  margin-top: 1rem;
+  align-items: center; }
 
 .left-column-facts {
   display: flex;
@@ -326,13 +325,8 @@ a.button-show:hover {
   justify-content: flex-start; }
 
 .crdc-map {
-  background: url(/crdc/assets/images/image-drum-circle-set.png);
-  width: 90%;
-  padding-top: 50.625%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  border: solid #FAF076; }
+  border: solid 1px;
+  width: 40rem; }
 
 .contact-wrapper {
   display: grid;
@@ -487,18 +481,18 @@ iframe.video-show {
   left: -4rem; }
 
 .team {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
+  display: flex;
   align-items: start;
-  justify-items: center; }
+  justify-content: center; }
   .team img {
     border: solid 3px; }
 
 .person {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  width: 30rem;
+  justify-content: space-between; }
   .person h2, .person h3, .person h4 {
     padding: 0 2rem;
     margin: 0.4rem; }
@@ -514,10 +508,9 @@ iframe.video-show {
 .friends-wrap {
   width: 100%;
   margin: auto;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  justify-items: center;
-  align-items: start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center; }
 
 .friend, .network-person {
@@ -531,7 +524,7 @@ iframe.video-show {
   justify-items: center;
   align-items: center;
   margin-top: 3rem;
-  width: 100%;
+  width: 50%;
   border-right: solid; }
   .inner_circle h1 {
     width: max-content;
@@ -544,10 +537,12 @@ iframe.video-show {
       margin-bottom: 1rem; }
 
 .network {
-  margin-top: 3rem; }
+  margin: 0 auto;
+  width: 50%; }
   .network h1 {
+    width: 15rem;
     border: solid 2px;
-    margin-bottom: 4rem;
+    margin: 3rem auto 4rem auto;
     padding: 0 2rem; }
 
 li.outer-friend {
@@ -591,6 +586,11 @@ img.remo {
 
   .show-wrapper {
     display: block;
+    flex-direction: column;
+    align-items: center; }
+
+  .img-show-wrap {
+    display: flex;
     flex-direction: column; }
 
   .img-show {
@@ -602,8 +602,7 @@ img.remo {
     flex-direction: column; }
 
   .button-show {
-    margin: 1rem 0;
-    width: 10rem; }
+    margin: 1rem 0; }
 
   .story-content-wrap {
     display: flex;
@@ -624,7 +623,7 @@ img.remo {
 
   .facts {
     margin-top: 2rem;
-    grid-template-columns: 80%;
+    flex-direction: column;
     justify-content: center; }
 
   .crdc-map {
