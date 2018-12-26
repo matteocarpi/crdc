@@ -10,17 +10,17 @@ body.home {
   background-position: center;
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
 }
-.content-home {
-  display: grid;
-  grid-template-columns: 25% 50% 25%;
-}
 
+.content-home {
+  display: flex;
+  justify-content: space-around;
+}
 .header-home {
   padding-top: 1rem;
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
 }
 .languages {
   display: flex;
