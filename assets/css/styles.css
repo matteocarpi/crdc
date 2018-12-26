@@ -314,7 +314,6 @@ a.button-show:hover {
 .facts {
   display: flex;
   justify-content: space-around;
-  margin-top: -20rem;
   position: relative;
   margin-top: 1rem;
   align-items: center; }
@@ -324,9 +323,8 @@ a.button-show:hover {
   flex-direction: column;
   justify-content: flex-start; }
 
-.crdc-map {
-  border: solid 1px;
-  width: 40rem; }
+img.crdc-map {
+  border: solid 1px; }
 
 .contact-wrapper {
   display: grid;
@@ -512,6 +510,10 @@ iframe.video-show {
   align-items: center;
   justify-content: center;
   text-align: center; }
+  .friends-wrap li {
+    list-style: none; }
+    .friends-wrap li a {
+      text-decoration: underline; }
 
 .friend, .network-person {
   margin-top: 3rem; }
@@ -573,9 +575,8 @@ img.remo {
 
 @media screen and (max-width: 768px) {
   .header-wrap {
-    display: flex;
     flex-direction: column;
-    align-items: center; }
+    margin: 0 auto; }
 
   .cta.contact {
     justify-self: start;
@@ -589,12 +590,23 @@ img.remo {
     flex-direction: column;
     align-items: center; }
 
+  .person {
+    width: 90%;
+    margin: 0 auto; }
+
+  .table-wrap {
+    display: flex;
+    flex-direction: column; }
+
+  td.expectations {
+    text-align: left; }
+
   .img-show-wrap {
     display: flex;
     flex-direction: column; }
 
   .img-show {
-    max-width: 30rem;
+    width: 20rem;
     margin: 2rem auto; }
 
   .show-navigation {
@@ -627,11 +639,10 @@ img.remo {
     justify-content: center; }
 
   .crdc-map {
-    grid-row-start: 1;
-    margin-top: 0; }
+    width: 20rem; }
 
   .team {
-    grid-template-columns: 90%;
+    flex-direction: column;
     justify-content: center;
     margin-top: 2rem; }
     .team p {
@@ -686,14 +697,7 @@ img.remo {
     padding: 0 0 2rem 0; }
 
   .facts {
-    margin: 0 auto; }
-
-  img.circus {
-    width: 300px; }
-
-  .crdc-map {
-    width: 100%;
-    padding-top: 100%; }
+    margin: 0 2rem; }
 
   .friends-wrap {
     grid-template-columns: 100%; }
