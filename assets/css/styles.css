@@ -62,6 +62,8 @@ body {
   min-height: 100%; }
 
 body.default-background {
+  display: flex;
+  flex-direction: column;
   background: linear-gradient(rgba(73, 146, 124, 0.7), rgba(73, 146, 124, 0.7)), url("/crdc/assets/images/Backround-default.jpg");
   background-size: cover; }
 
@@ -212,7 +214,7 @@ body.home {
 .show-wrapper {
   display: flex;
   align-items: center;
-  justify-items: center; }
+  justify-content: space-evenly; }
 
 .expectations {
   text-align: right;
@@ -244,10 +246,12 @@ tr {
 td > p {
   font-size: 15px;
   font-weight: 400;
-  margin: 0.4rem 0; }
+  margin: 0.4rem 0;
+  word-break: break-all;
+  hyphens: auto; }
 
 .show-footer-wrap {
-  display: block; }
+  flex-shrink: 0; }
 
 .show-footer {
   width: 100%;
@@ -259,7 +263,8 @@ td > p {
   justify-content: flex-end; }
   .show-footer h1 {
     font: 100% "Henny-Penny";
-    font-size: 30px; }
+    font-size: 30px;
+    text-align: center; }
 
 .show-navigation {
   margin-top: 1em;
@@ -291,6 +296,9 @@ a.active-button-show:hover {
 
 a.button-show:hover {
   color: #02509E; }
+
+.img-show-wrap {
+  display: block; }
 
 .img-show {
   margin-top: -3rem;
@@ -623,6 +631,13 @@ img.remo {
   .story-image-1 {
     transform: rotate(-14deg); }
 
+  .carousel-control-next-icon {
+    color: #FAF076;
+    margin-left: 0; }
+
+  .carousel-control-prev-icon {
+    margin-right: 0; }
+
   .facts {
     margin-top: 2rem;
     flex-direction: column;
@@ -672,9 +687,6 @@ img.remo {
     flex-direction: column; }
     .languages .cta {
       margin: 1rem 0; }
-
-  .show-footer h1 {
-    text-align: center; }
 
   .story-wrap {
     width: 100%;
