@@ -1,7 +1,7 @@
 .show-wrapper {
   display: flex;
   align-items: center;
-  justify-items: center;
+  justify-content: space-evenly;
   // margin-bottom: 3rem;
 }
 .expectations {
@@ -36,11 +36,14 @@ td > p {
   font-size: 15px;
   font-weight: 400;
   margin: 0.4rem 0;
+  word-break: break-all;
+  hyphens: auto;
 }
 
 //Footer-Show Navigation
 .show-footer-wrap {
-  display: block;
+  // display: block;
+  flex-shrink: 0;
 }
 .show-footer {
   width: 100%;
@@ -54,6 +57,7 @@ td > p {
   h1{
     font: 100% $happy;
     font-size: 30px;
+    text-align: center;
   }
 }
 .show-navigation {
@@ -86,6 +90,9 @@ a.active-button-show:hover {
 }
 a.button-show:hover {
   color: $blue;
+}
+.img-show-wrap {
+  display: block;
 }
 .img-show{
   margin-top: -3rem;

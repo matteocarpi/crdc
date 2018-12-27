@@ -63,6 +63,16 @@
   .story-image-1 {
     transform: rotate(-14deg);
   }
+
+  // Gallery
+  .carousel-control-next-icon {
+    color: $yellow;
+    margin-left: 0;
+  }
+  .carousel-control-prev-icon {
+    margin-right: 0;
+  }
+
   //Facts
   .facts {
     margin-top: 2rem;
@@ -124,11 +134,6 @@
     }
   }
   //Show
-  .show-footer {
-    h1 {
-      text-align: center;
-    }
-  }
   .story-wrap {
     width: 100%;
     padding: 0 0 2rem 0;
