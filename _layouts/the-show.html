@@ -2,55 +2,37 @@
 layout: default
 ---
 <div class="show-wrapper">
-  <div class="table-wrap">
-      <table>
-        <tbody>
-          <tr>
-            <td class="expectations"><h1> {{ page.expectation_title_en }} </h1></td>
-          </tr>
 
-          <tr>
-            <td class="expectations"><p class="statement">{{ page.expectation_1_en | markdownify }}</p></td>
-          </tr>
+  <div class="expect-offer-wrap">
 
-          <tr>
-            <td class="expectations"><p class="statement">{{ page.expectation_2_en | markdownify }}</p></td>
-          </tr>
+    <div class="expectation">
+      <h1> {{ page.expectation_title_en }} </h1>
 
-          <tr>
-            <td class="expectations"><p>{{ page.expectation_3_en | markdownify }}</p></td>
-          </tr>
+      <p>{{ page.expectation_1_en | markdownify }}</p>
 
-        </tbody>
-      </table>
+      <p>{{ page.expectation_2_en | markdownify }}</p>
 
-      <table class="offer">
-        <tbody>
-          <tr>
-            <td class="statement"><h1>{{ page.offer_title_en }}</h1></td>
-          </tr>
-
-          <tr>
-            <td class="statement"><p>{{ page.offer_1_en | markdownify }}</p></td>
-          </tr>
-
-          <tr>
-            <td class="statement"><p >{{ page.offer_2_en | markdownify }}</p></td>
-          </tr>
-
-          <tr>
-            <td class="statement"><p >{{ page.offer_3_en | markdownify }}</p></td>
-          </tr>
-        </tbody>
-      </table>
+      <p>{{ page.expectation_3_en | markdownify }}</p>
     </div>
 
-  <div class="img-show-wrap">
-    <img class="img-show" src="{{ page.image | relative_url }}" alt="">
+    <div class="offer">
+      <h1>{{ page.offer_title_en }}</h1>
+
+      <p>{{ page.offer_1_en | markdownify }}</p>
+
+      <p >{{ page.offer_2_en | markdownify }}</p>
+
+      <p >{{ page.offer_3_en | markdownify }}</p>
+    </div>
+
   </div>
 
-</div>
 
+    <div class="img-show-wrap">
+      <img class="img-show" src="{{ page.image | relative_url }}" alt="">
+    </div></div>
+
+</div>
 
 {% include navigation-show.html %}
 <!--  is my profile picture online? -->
