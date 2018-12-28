@@ -26,8 +26,7 @@ h1.center-title {
 
 h2 {
   font-size: 20px;
-  font-weight: 400;
-  text-decoration: underline; }
+  font-weight: bolder; }
 
 h3 {
   font-weight: 900;
@@ -213,42 +212,24 @@ body.home {
 
 .show-wrapper {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: space-evenly; }
 
-.expectations {
-  text-align: right;
-  padding-right: 0.5em;
-  vertical-align: baseline; }
-
-.statement {
-  vertical-align: bottom; }
-
-.offer {
-  padding-left: 0.5em; }
-
-.table-wrap {
+.expect-offer-wrap {
   display: flex;
   flex-direction: row;
-  padding: 0 2em; }
+  margin-right: 0.5rem; }
+
+.expectation {
+  text-align: right;
+  padding-right: 0.5em; }
 
 .offer {
+  padding-left: 0.5em;
   margin-top: 3rem;
   margin-left: 2rem; }
-
-td {
-  vertical-align: baseline; }
-
-tr {
-  padding: 0;
-  margin: 0; }
-
-td > p {
-  font-size: 15px;
-  font-weight: 400;
-  margin: 0.4rem 0;
-  word-break: break-all;
-  hyphens: auto; }
 
 .show-footer-wrap {
   flex-shrink: 0; }
@@ -335,9 +316,7 @@ img.crdc-map {
 .contact-wrapper {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  height: 80%;
-  margin-top: -10rem; }
+  justify-content: space-evenly; }
 
 .contacts {
   text-align: center; }
@@ -507,10 +486,8 @@ iframe.video-show {
   align-items: center;
   justify-content: center;
   text-align: center; }
-  .friends-wrap li {
-    list-style: none; }
-    .friends-wrap li a {
-      text-decoration: underline; }
+  .friends-wrap a {
+    text-decoration: underline; }
 
 .friend, .network-person {
   margin-top: 3rem; }
