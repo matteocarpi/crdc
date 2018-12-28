@@ -1,38 +1,39 @@
 ---
 layout: default
 ---
-<div class="show-wrapper">
+<!-- <div class="show-container"> -->
+  <div class="show-wrapper">
 
-  <div class="expect-offer-wrap">
+    <div class="expect-offer-wrap">
 
-    <div class="expectation">
-      <h1> {{ page.expectation_title_en }} </h1>
+      <div class="expectation">
+        <h1> {{ page.expectation_title_en }} </h1>
 
-      <p>{{ page.expectation_1_en | markdownify }}</p>
+        <p>{{ page.expectation_1_en | markdownify }}</p>
 
-      <p>{{ page.expectation_2_en | markdownify }}</p>
+        <p>{{ page.expectation_2_en | markdownify }}</p>
 
-      <p>{{ page.expectation_3_en | markdownify }}</p>
+        <p>{{ page.expectation_3_en | markdownify }}</p>
+      </div>
+
+      <div class="offer">
+        <h1>{{ page.offer_title_en }}</h1>
+
+        <p>{{ page.offer_1_en | markdownify }}</p>
+
+        <p >{{ page.offer_2_en | markdownify }}</p>
+
+        <p >{{ page.offer_3_en | markdownify }}</p>
+      </div>
+
     </div>
 
-    <div class="offer">
-      <h1>{{ page.offer_title_en }}</h1>
 
-      <p>{{ page.offer_1_en | markdownify }}</p>
-
-      <p >{{ page.offer_2_en | markdownify }}</p>
-
-      <p >{{ page.offer_3_en | markdownify }}</p>
-    </div>
-
+      <div class="img-show-wrap">
+        <img class="img-show" src="{{ page.image | relative_url }}" alt="">
+      </div>
   </div>
-
-
-    <div class="img-show-wrap">
-      <img class="img-show" src="{{ page.image | relative_url }}" alt="">
-    </div></div>
-
-</div>
+<!-- </div> -->
 
 {% include navigation-show.html %}
 <!--  is my profile picture online? -->
