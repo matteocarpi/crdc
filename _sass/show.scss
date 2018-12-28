@@ -15,30 +15,12 @@
 .offer {
   padding-left: 0.5em;
 }
-.table-wrap {
-  display: flex;
-  flex-direction: row;
-  padding: 0 2em;
-}
+
 .offer {
   margin-top: 3rem;
   margin-left: 2rem;
 }
-td {
-  vertical-align: baseline;
-  // min-width: 540px;
-}
-tr {
-  padding: 0;
-  margin: 0;
-}
-td > p {
-  font-size: 15px;
-  font-weight: 400;
-  margin: 0.4rem 0;
-  word-break: break-all;
-  hyphens: auto;
-}
+
 
 //Footer-Show Navigation
 .show-footer-wrap {
