@@ -17,6 +17,10 @@ body {
   flex-direction: column;
   justify-content: space-between; }
 
+.content {
+  flex: 1 0 0;
+  margin-top: 2rem; }
+
 h1 {
   font-weight: 900;
   font-size: 26px; }
@@ -176,7 +180,8 @@ body.home {
 
 .content-home {
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+  flex: 1 0 0; }
 
 .header-home {
   padding-top: 1rem;
@@ -216,7 +221,7 @@ body.home {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-evenly;
-  flex: 1; }
+  flex: 1 0 0; }
 
 .expect-offer-wrap {
   display: flex;
@@ -289,7 +294,7 @@ a.button-show:hover {
   border: solid 3px; }
 
 .gallery {
-  flex: 1; }
+  flex: 1 0 0; }
 
 .carousel-inner {
   max-width: 45%;
@@ -409,7 +414,7 @@ iframe.video-show {
   border: 0; }
 
 .story-wrap {
-  flex: 1; }
+  flex: 1 0 0; }
 
 .story-content-wrap {
   display: flex;
