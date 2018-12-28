@@ -4,6 +4,7 @@
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-evenly;
+  flex: 1;
 }
 .expect-offer-wrap {
   display: flex;
@@ -19,11 +20,8 @@
   margin-top: 3rem;
   margin-left: 2rem;
 }
-
-
 //Footer-Show Navigation
 .show-footer-wrap {
-  // display: block;
   flex-shrink: 0;
 }
 .show-footer {
