@@ -509,8 +509,6 @@ iframe.video-show {
     border: solid 2px; }
   .inner_circle div {
     margin-bottom: 2rem; }
-    .inner_circle div li {
-      margin-bottom: 1rem; }
 
 .network {
   margin: 0 auto;
@@ -520,9 +518,6 @@ iframe.video-show {
     border: solid 2px;
     margin: 3rem auto 4rem auto;
     padding: 0 2rem; }
-
-li.outer-friend {
-  margin-bottom: 2rem; }
 
 img.remo {
   width: 100px;
