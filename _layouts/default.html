@@ -2,9 +2,11 @@
 <html lang="en" dir="ltr">
   {% include head.html %}
   <body class="default-background">
-    {% include header.html %}
-    <div class="content">
-      {{ content }}
+    <div class="page-wrap">
+      {% include header.html %}
+      <div class="content">
+        {{ content }}
+      </div>
     </div>
     {% include footer.html %}
   </body>
