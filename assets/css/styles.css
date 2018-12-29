@@ -485,6 +485,7 @@ iframe.video-show {
     margin: 0.4rem; }
   .person p {
     padding: 0.1rem 1rem;
+    white-space: normal;
     font-style: italic; }
   .person h2 {
     margin-top: 1rem; }
