@@ -114,9 +114,8 @@ body.default-background {
  white-space: nowrap;
 }
 div.footer {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
+  text-align: right;
+  margin-right: 2rem;
 }
 a.footer {
   margin-bottom: 0.5rem;
