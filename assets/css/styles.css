@@ -233,6 +233,7 @@ body.home {
   flex: 1 0 auto; }
 
 .expect-offer-wrap {
+  margin-top: 9rem;
   display: flex;
   flex-direction: row;
   margin-right: 0.5rem; }
@@ -245,6 +246,12 @@ body.home {
   padding-left: 0.5em;
   margin-top: 3rem;
   margin-left: 2rem; }
+
+.slogan-wrap {
+  display: flex;
+  width: 80%;
+  max-width: 60rem;
+  justify-content: space-between; }
 
 .show-footer-wrap {
   flex-shrink: 0; }
@@ -297,7 +304,6 @@ a.button-show:hover {
   display: block; }
 
 .img-show {
-  margin-top: -3rem;
   margin-right: 3rem;
   width: 30rem;
   border: solid 3px; }
@@ -582,12 +588,11 @@ img.remo {
     width: 90%;
     margin: 0 auto; }
 
-  .table-wrap {
-    display: flex;
-    flex-direction: column; }
+  .expect-offer-wrap {
+    margin-top: 0; }
 
-  td.expectations {
-    text-align: left; }
+  .slogan-wrap {
+    flex-direction: column; }
 
   .img-show-wrap {
     display: flex;
