@@ -24,7 +24,7 @@
     margin: 0 auto;
   }
   .expect-offer-wrap {
-    margin-top: 0;
+    margin: 0 1rem;
   }
   .slogan-wrap {
     flex-direction: column;
@@ -133,6 +133,16 @@
     }
   }
   //Show
+  .expect-offer-wrap {
+    flex-direction: column;
+    .expectation {
+      text-align: left;
+    }
+    .offer {
+      margin: 0;
+      margin-top: 2rem;
+    }
+  }
   .story-wrap {
     width: 100%;
     padding: 0 0 2rem 0;
