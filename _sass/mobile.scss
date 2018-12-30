@@ -23,12 +23,11 @@
     width: 90%;
     margin: 0 auto;
   }
-  .table-wrap {
-    display: flex;
-    flex-direction: column;
+  .expect-offer-wrap {
+    margin-top: 0;
   }
-  td.expectations {
-      text-align: left;
+  .slogan-wrap {
+    flex-direction: column;
   }
   .img-show-wrap {
     display: flex;

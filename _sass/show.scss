@@ -21,7 +21,14 @@
   margin-top: 3rem;
   margin-left: 2rem;
 }
+
 //Footer-Show Navigation
+.slogan-wrap {
+  display: flex;
+  width: 80%;
+  max-width: 60rem;
+  justify-content: space-between;
+}
 .show-footer-wrap {
   flex-shrink: 0;
 }
