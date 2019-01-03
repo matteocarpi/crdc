@@ -243,10 +243,13 @@ body.home {
   text-align: right;
   padding-right: 0.5em; }
 
+hr {
+  visibility: hidden; }
+
 .offer {
   padding-left: 0.5em;
-  margin-top: 2rem;
-  margin-left: 1rem; }
+  margin-top: 2.5rem;
+  margin-left: 0.6rem; }
 
 .slogan-wrap {
   display: flex;
