@@ -51,6 +51,9 @@ h3 {
 h4 {
   font-size: 12px; }
 
+p {
+  font-size: 13px; }
+
 a {
   color: #FAF076;
   text-decoration: none; }
@@ -495,9 +498,10 @@ iframe.video-show {
   justify-content: space-between; }
   .person h2, .person h3, .person h4 {
     padding: 0 2rem;
-    margin: 0.4rem; }
+    margin: 0.4rem;
+    text-align: center; }
   .person p {
-    width: 460px;
+    max-width: 460px;
     padding: 0.1rem 1rem;
     white-space: normal;
     font-style: italic; }
