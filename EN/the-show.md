@@ -16,10 +16,8 @@ expectation_1_en: Streetcircus...
 expectation_2_en: Music...
 expectation_3_en: Interaction
 offer_1_en: "...an intergenerational show with lasting effect!"
-offer_2_en: |-
-  ...up to 100 drummers in a rousing performance
-
-     plus countless inspired spectators!
+offer_2_en: "...up to 100 drummers in a rousing performance plus countless inspired
+  spectators!"
 offer_3_en: "...a creatively activated audience and a groovy festival community! "
 expectation_title_de: ''
 offer_title_de: prova
