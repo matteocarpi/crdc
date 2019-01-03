@@ -16,7 +16,7 @@ expectation_1_en: Straßenzirkus...
 expectation_2_en: Musik...
 expectation_3_en: 'Interaktion... '
 offer_1_en: "...eine generationsübergreifende Show mit nachhaltiger Wirkung!"
-offer_2_en: "...bis zu 100 Trommler in einer mitreißenden Performance \n\nzzgl. zahlloser
+offer_2_en: "...bis zu 100 Trommler in einer mitreißenden Performance zzgl. zahlloser
   inspirierter Zuschauer!"
 offer_3_en: "...ein kreativ aktiviertes Publikum und eine groovende Festivalgemeinschaft!"
 expectation_title_de: ''
