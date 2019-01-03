@@ -7,8 +7,8 @@ undefined: Facts
 
 ---
 **DAUER UND HÄUFIGKEIT**  
-\- 30 - 45 Minuten je Show   
-\- 3x täglich 
+\- 30 - 45 Minuten je Show  
+\- 3x täglich
 
 **PUBLIKUMSKAPAZITÄT**  
 \- 100 aktive Teilnehmer je Show  
@@ -18,7 +18,6 @@ undefined: Facts
 \- 17m x 11m (56ft x 37ft)
 
 **MATERIALANFORDERUNGEN**  
-
 \- Stromanschluß  220V  
-\- 100 Stühle ohne(!) Armlehnen   
-\- alternativ 21 Festzelt-Bänke 
+\- 100 Stühle ohne(!) Armlehnen  
+\- alternativ 21 Festzelt-Bänke
