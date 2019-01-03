@@ -18,6 +18,7 @@ undefined: Facts
 \- 17m x 11m (56ft x 37ft)
 
 **REQUIREMENTS**
+
 \- Power connection 220V  
 \- 100 Chairs without(!) armrests  
 \- alternatively 21 marquee benches
