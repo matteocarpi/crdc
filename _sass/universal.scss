@@ -102,6 +102,8 @@ body.default-background {
       url("/assets/images/Backround-default.jpg");
   background-size: cover;
   min-height: 100%;
+  -webkit-transition: background-image 0.2s ease-in-out;
+  transition: background-image 0.2s ease-in-out;
 }
 .fas {
   font-size: 2rem;
