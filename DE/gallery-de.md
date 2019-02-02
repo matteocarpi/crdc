@@ -16,6 +16,14 @@ images:
   image: "/crdc/uploads/DSC_0141Auswahl.jpg"
 - template: image
   image: "/crdc/uploads/_DK81879Auswahl.jpg"
+- template: image
+  image: "/crdc/uploads/_DK81945Auswahl.jpg"
+- template: image
+  image: "/crdc/uploads/_DK81877Auswahl.jpg"
+- template: image
+  image: "/crdc/uploads/_DK81853Auswahl.jpg"
+- template: image
+- template: image
 first_image: "/uploads/crazy-rumble-drum-circus-gallery-4.jpg"
 
 ---
