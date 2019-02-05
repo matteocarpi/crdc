@@ -9,8 +9,6 @@ images:
 - template: image
   image: "/uploads/DSC_0087Auswahl.jpg"
 - template: image
-  image: "/uploads/_DK81840Auswahl.jpg"
-- template: image
   image: "/uploads/DSC_0141Auswahl.jpg"
 - template: image
   image: "/uploads/DSC_0196Auswahl.jpg"
