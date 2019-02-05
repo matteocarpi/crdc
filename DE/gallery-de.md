@@ -15,6 +15,6 @@ images:
 - template: image
   image: "/uploads/DSC_0196Auswahl.jpg"
 - template: image
-first_image: ''
+first_image: "/uploads/_DK81840Auswahl.jpg"
 
 ---
