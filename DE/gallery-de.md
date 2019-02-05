@@ -9,13 +9,11 @@ images:
 - template: image
   image: "/uploads/DSC_0087Auswahl.jpg"
 - template: image
-  image: "/uploads/_DK81853Auswahl.jpg"
+  image: ''
 - template: image
   image: "/uploads/DSC_0141Auswahl.jpg"
 - template: image
   image: "/uploads/DSC_0196Auswahl.jpg"
-- template: image
-  image: "/uploads/DSC_0087Auswahl.jpg"
-first_image: "/uploads/_DK81840Auswahl.jpg"
+first_image: ''
 
 ---
