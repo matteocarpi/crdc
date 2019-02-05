@@ -7,7 +7,7 @@ images:
 - template: image
   image: "/uploads/Seite 2 Foto FREUDE (_DK81874).jpg"
 - template: image
-  image: ''
+  image: "/uploads/DSC_0087Auswahl.jpg"
 - template: image
   image: "/uploads/DSC_0141Auswahl.jpg"
 - template: image
