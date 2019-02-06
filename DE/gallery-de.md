@@ -24,6 +24,8 @@ images:
   image: "/uploads/gallery eve.jpg"
 - template: image
   image: "/uploads/gallery W.jpg"
+- template: image
+  image: "/uploads/gallery 77.jpg"
 first_image: "/uploads/Seite 2 Foto FREUDE (_DK81874).jpg"
 
 ---
