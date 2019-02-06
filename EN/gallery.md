@@ -14,6 +14,12 @@ images:
   image: "/uploads/crazy-rumble-drum-circus-gallery-9.jpg"
 - template: image
   image: "/uploads/crazy-rumble-drum-circus-gallery-4.jpg"
+- template: image
+  image: "/uploads/gallery F.jpg"
+- template: image
+  image: "/uploads/gallery B.jpg"
+- template: image
+  image: "/uploads/back gallery.jpg"
 first_image: "/uploads/Seite 2 Foto FREUDE (_DK81874).jpg"
 
 ---
