@@ -20,6 +20,10 @@ images:
   image: "/uploads/gallery F.jpg"
 - template: image
   image: "/uploads/gallery B.jpg"
+- template: image
+  image: "/uploads/gallery eve.jpg"
+- template: image
+  image: "/uploads/gallery W.jpg"
 first_image: "/uploads/Seite 2 Foto FREUDE (_DK81874).jpg"
 
 ---
