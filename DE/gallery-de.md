@@ -20,6 +20,8 @@ images:
   image: "/uploads/gallery F.jpg"
 - template: image
   image: "/uploads/gallery B.jpg"
+- template: image
+  image: "/uploads/_DK81879Auswahl.jpg"
 first_image: "/uploads/Seite 2 Foto FREUDE (_DK81874).jpg"
 
 ---
