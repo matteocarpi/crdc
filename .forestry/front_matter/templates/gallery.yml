@@ -13,5 +13,5 @@ fields:
   template_types:
   - image
 pages:
-- EN/gallery.md
 - DE/gallery-de.md
+- EN/gallery.md
