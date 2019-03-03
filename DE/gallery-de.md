@@ -21,9 +21,9 @@ images:
 - template: image
   image: "/uploads/gallery B.jpg"
 - template: image
-  image: "/uploads/gallery eve.jpg"
-- template: image
   image: "/uploads/DSC_0196Auswahl.jpg"
+- template: image
+  image: "/uploads/gallery eve.jpg"
 - template: image
   image: "/uploads/gallery W.jpg"
 first_image: "/uploads/crazy-rumble-drum-circus-gallery-9.jpg"
