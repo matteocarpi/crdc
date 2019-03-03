@@ -64,5 +64,5 @@ fields:
       format: markdown
   default: ''
 pages:
-- EN/the-show.md
 - DE/the-show-de.md
+- EN/the-show.md
