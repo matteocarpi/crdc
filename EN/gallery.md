@@ -5,9 +5,9 @@ title: Gallery
 photos: []
 images:
 - template: image
-  image: "/uploads/back gallery.jpg"
-- template: image
   image: "/uploads/Seite 2 Foto FREUDE (_DK81874).jpg"
+- template: image
+  image: "/uploads/back gallery.jpg"
 - template: image
   image: "/uploads/gallery 77.jpg"
 - template: image
