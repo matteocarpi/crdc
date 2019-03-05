@@ -15,6 +15,10 @@ images:
 - template: image
   image: "/uploads/DSC_0141Auswahl.jpg"
 - template: image
+  image: "/uploads/2017 07 07 HP2017_0062.JPG"
+- template: image
+  image: "/uploads/2017 07 07 HP2017_0112.JPG"
+- template: image
   image: "/uploads/gallery F.jpg"
 - template: image
   image: "/uploads/DSC_0087Auswahl.jpg"
