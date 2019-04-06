@@ -1,7 +1,6 @@
 ---
 label: Impressum & Privacy Policy
 hide_body: false
-is_partial: false
 fields:
 - name: contact-name
   label: Contact name

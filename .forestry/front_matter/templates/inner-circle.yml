@@ -1,7 +1,6 @@
 ---
 label: Area Of Work
 hide_body: false
-is_partial: true
 display_field: area_of_work
 fields:
 - type: text
